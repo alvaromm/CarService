@@ -78,21 +78,37 @@ public class Recurso {
 		return String.valueOf(count);
 	}
 	
-	
+	/**
+	 * Este método se encarga de crear un nuevo coche.
+	 * @param id
+	 * @param nombre
+	 * @param apellidos
+	 * @param servletResponse
+	 * @throws IOException
+	 */
 	@POST
 	@Produces(MediaType.TEXT_HTML)
 	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
-	public void newTodo(@FormParam("id") String id,
-			@FormParam("resumen") String resumen,
-			@FormParam("descripcion") String descripcion,
+	public void newCoche(
+			@FormParam("precio")    int 	precio,  
+			@FormParam("cilindros") int 	cilindros,  
+			@FormParam("caballos")  int 	caballos,  
+			@FormParam("tamMotor") double 	tamMotor,  
+			@FormParam("peso")     double 	peso,   
+			@FormParam("longitud") double 	longitud,  
+			@FormParam("marca")    String 	marca,  	 
+			@FormParam("modelo")   String 	modelo,   
+			@FormParam("tipo")     String 	tipo,  	 
+			@FormParam("origen")   String 	origen,   
+			@FormParam("traccion") String 	traccion,
 			@Context HttpServletResponse servletResponse) throws IOException {
-		Coche coche = new Coche();
+		Coche coche = new Coche(marca, modelo, tipo, origen, traccion, precio, tamMotor, cilindros, caballos, peso, longitud);
 
-		CochesDao.instance.getModel().put(id, coche);
+		//CochesDao.instance.getModel().put(id, coche);
 
-		servletResponse.sendRedirect("../crear_coche.html");
-		
-		System.out.println("Se ha enviado un coche chachi...");
+		//servletResponse.sendRedirect("../crear_coche.html");
+		System.out.println(coche);
+		//System.out.println("Se ha enviado un coche: " + nombre + " | " + apellidos + " | ");
 	}
 	
 

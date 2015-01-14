@@ -3,27 +3,54 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <style type="text/css">
-input {
-  padding: .1em;
-}
+
+
 </style>
 <title>Formulario Web para crearse un nuevo recurso</title>
 </head>
 <body>
-	<form action="http://localhost:8080/CarService/rest/coches"
-		method="POST">
+	<form action="rest/coches" method="POST">
+
 		<fieldset>
-			<legend>Alta en el servicio</legend>
+			<legend>Registrar coche</legend>
 
-			<label for="nombre">Nombre</label> <input type="text" id="nombre" />
-
-			<label for="apellidos">Apellidos</label> <input type="text"
-				id="apellidos" size="50" /> <label for="dni">DNI</label> <input
-				type="text" id="dni" size="10" maxlength="9" /> <label
-				for="contrasena">Contraseña</label> <input type="password"
-				id="contrasena" /> <input class="btn" type="submit"
-				value="Darme de alta" />
+			<div> <lab for="nombre">Marca</label> <input type="text" name="marca" value="Nombre del coche"/> </div>
+			<br />
+			
+			<div> <lab for="nombre">Modelo</label> <input type="text" name="modelo" value="Nombre del coche"/> </div>
+			<br />
+			
+			<div> <lab for="nombre">Tipo</label> <input type="text" name="tipo" value="Nombre del coche"/> </div>
+			<br />
+			
+			<div> <lab for="nombre">Origen</label> <input type="text" name="origen" value="Nombre del coche"/> </div>
+			<br />
+			
+			<div> <lab for="nombre">Tracción</label> <input type="text" name="traccion" value="Nombre del coche"/> </div>
+			<br />
+			
+			<div> <lab for="nombre">Tamaño del motor</label> <input type="number" name="tamMotor" value="123"/> </div>
+			<br />
+			
+			<div> <lab for="nombre">Peso</label> <input type="number" name="peso" value="123"/> </div>
+			<br />
+			
+			<div> <lab for="nombre">Longitud</label> <input type="number" name="longitud" value="123"/> </div>
+			<br />
+			
+			<div> <lab for="nombre">Precio</label> <input type="number" name="precio" value="123"/> </div>
+			<br />
+			
+			<div> <lab for="nombre">Cilindros</label> <input type="number" name="cilindros" value="123"/> </div>
+			<br />
+			
+			<div> <lab for="nombre">Caballos</label> <input type="number" name="caballos" value="123"/> </div>
+			<br />
+			
+			<input class="btn" type="submit" value="Registrar" />
+			
 		</fieldset>
+
 	</form>
 </body>
 </html>
