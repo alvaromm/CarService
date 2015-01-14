@@ -44,6 +44,25 @@ public class Coche implements Serializable{
 		this.origen 	= "";
 		this.traccion 	= "";
 	}
+	
+	/**
+	 * Constructor por parámetros, crea un coche pasándole por parámetros
+	 * 		los atributos.
+	 * */
+	public Coche(String marca, String modelo, String tipo, String origen, String traccion,
+			int precio, double tamMotor, int cilindros, int caballos, double peso, double longitud) {
+		this.precio 	= precio; 
+		this.cilindros 	= cilindros; 
+		this.caballos 	= caballos; 
+		this.tamMotor 	= tamMotor; 
+		this.peso 		= peso;  
+		this.longitud 	= longitud; 
+		this.marca 		= marca; 	 
+		this.modelo 	= modelo;  
+		this.tipo 		= tipo; 	 
+		this.origen 	= origen;  
+		this.traccion 	= traccion;  
+	}
 
 	public int getCarId() {
 		return carId;
@@ -144,7 +163,7 @@ public class Coche implements Serializable{
 	@Override
 	public String toString() {
 		String coche = String.format(
-				"[%-3d |%10s |%-10s |%10s |%10s "
+				"[%-3d |%10s |%-15s |%10s |%10s "
 				+ "|%7s |%3d |%3f |%2d |%3d "
 				+ "|%2f |%2f]", 
 				this.carId, this.marca, this.modelo, this.tipo, this.origen, 
