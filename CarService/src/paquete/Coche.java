@@ -25,11 +25,11 @@ public class Coche implements Serializable{
 
 	
 	// -----------------------------------------------------------
-	//                          Métodos.
+	//                          Mï¿½todos.
 	// -----------------------------------------------------------	
 	/**
 	 * Constructor de la clase.
-	 * Inicializa todos los valores al valor 0 ó vacío.
+	 * Inicializa todos los valores al valor 0 ï¿½ vacï¿½o.
 	 * */
 	public Coche(){
 		this.precio 	= 0;
@@ -45,8 +45,9 @@ public class Coche implements Serializable{
 		this.traccion 	= "";
 	}
 	
+	
 	/**
-	 * Constructor por parámetros, crea un coche pasándole por parámetros
+	 * Constructor por parï¿½metros, crea un coche pasï¿½ndole por parï¿½metros
 	 * 		los atributos.
 	 * */
 	public Coche(String marca, String modelo, String tipo, String origen, String traccion,

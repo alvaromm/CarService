@@ -20,12 +20,12 @@ public class CocheDB {
 	}
 	
 	// -----------------------------------------------------------
-	//                          Métodos
+	//                          Mï¿½todos
 	// -----------------------------------------------------------	
 	
 	/**
-	 * Añade un coche a la base de datos.
-	 * @param coche : Coche que se va a añadir.
+	 * Aï¿½ade un coche a la base de datos.
+	 * @param coche : Coche que se va a aï¿½adir.
 	 * */
 	public static void insertar(Coche coche) {
 		EntityManager em = factoria.createEntityManager();
@@ -44,6 +44,29 @@ public class CocheDB {
 		System.out.println("Coche insertado.");
 	}
 	
+	
+	@SuppressWarnings("unchecked")
+	public static Coche getCoche(int idCoche){
+		Coche c;
+		List<Coche> listaCoches; 
+		
+		EntityManager em = factoria.createEntityManager();
+		
+		// Hacemos la consulta.
+		Query q = em.createQuery("SELECT u FROM Coche u WHERE u.carId='" + idCoche + "'");
+		// Anotamos el resultado.
+		listaCoches = q.getResultList();
+		if(listaCoches.size() != 0)
+			c = listaCoches.get(0);
+		else 
+			return null;
+		
+		// Cerramos el gestor.
+		em.close();
+		
+		return c;
+	}
+	
 	/**
 	 * Actualiza el coche de la base de datos.
 	 * @param usuario : Coche que se va a actualizar. 
@@ -58,7 +81,7 @@ public class CocheDB {
 		// Buscamos el coche en la base de datos.
 		coche_modificado = em.find(Coche.class, idCocheAntiguo);
 		
-		// Comenzamos una transacción.
+		// Comenzamos una transacciï¿½n.
 		em.getTransaction().begin();
 		
 		// Realizamos los cambios.
@@ -86,7 +109,7 @@ public class CocheDB {
 	/**
 	 * Elimina un coche de la base de datos.
 	 * @param coche : Coche que se va a eliminar.
-	 * 	(Es necesario que el 'id' del coche esté en la base de datos)
+	 * 	(Es necesario que el 'id' del coche estï¿½ en la base de datos)
 	 * */
 	public static void eliminar(Coche coche) {
 		// Para esto, nos crearemos un gestor de entidades "fresco"
@@ -94,7 +117,7 @@ public class CocheDB {
 		
 		// Buscamos el usuario en la base de datos.
 		coche = em.find(Coche.class, coche.getCarId());
-		// Comenzamos la transacción.
+		// Comenzamos la transacciï¿½n.
 		em.getTransaction().begin();
 		// Borramos el usuario.
 		em.remove(coche);
@@ -111,7 +134,7 @@ public class CocheDB {
 	 * 
 	 * @param modelo : Indica el modelo del coche que se va a devolver.
 	 * @return Devuelve un objeto Coche con el 'modelo' pasado por 
-	 * 			parámetro que se encuentra en la base de datos.
+	 * 			parï¿½metro que se encuentra en la base de datos.
 	 * 			Si no existe devuelve 'null'.
 	 * */
 	@SuppressWarnings("unchecked")
@@ -122,7 +145,8 @@ public class CocheDB {
 		EntityManager em = factoria.createEntityManager();
 		
 		// Hacemos la consulta.
-		Query q = em.createQuery("SELECT u FROM Coche u WHERE u.modelo='" + modelo + "'");
+		Query q = em.createQuery("SELECT u FROM Coche u WHERE u.modelo = :modelo");
+		q.setParameter("modelo",modelo);
 		// Anotamos el resultado.
 		listaCoches = q.getResultList();
 		if(listaCoches.size() != 0)
@@ -137,7 +161,7 @@ public class CocheDB {
 	}
 	
 	/**
-	 * Busca si existe un coche según el modelo.
+	 * Busca si existe un coche segï¿½n el modelo.
 	 * @param modelo : Modelo que se va a buscar.
 	 * */
 	@SuppressWarnings("unchecked")
@@ -200,10 +224,13 @@ public class CocheDB {
 		// Creamos una lista con todos los Usuarios a la que le asignamos
 		//  el resultado de la consulta en la base de datos.
 		List <Coche> listaCoches = q.getResultList();
+		
+		em.close();
+		
 		for (Coche u: listaCoches) {
 			System.out.println(u);
 		}
-		System.out.println("Tamaño: " + listaCoches.size());
+		System.out.println("TamaÃ±o: " + listaCoches.size());
 	}
 }
 
