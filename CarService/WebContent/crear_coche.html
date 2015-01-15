@@ -39,7 +39,7 @@
     margin-top: 10px;
     color: #888;
 }
-.basic-grey input[type="text"], .basic-grey input[type="number"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
     border: 1px solid #DADADA;
     color: #888;
     height: 30px;
@@ -55,6 +55,24 @@
     -moz-box-shadow: inset 0px 1px 4px #ECECEC;
     -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
 }
+.basic-grey input[type="number"] {
+	float:left;
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 20%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+ }
+
 .basic-grey textarea{
     padding: 5px 3px 3px 5px;
 }
@@ -96,29 +114,30 @@
 		<fieldset>
 			<legend>Registrar coche</legend>
 			<label> <span>Marca</span> <input type="text" name="marca"
-				value="Nombre del coche" />
-			</label> <label> <span for="nombre">Modelo</span> <input
-				type="text" name="modelo" value="Nombre del coche" />
-			</label> <label> <span for="nombre">Tipo</span> <input
-				type="text" name="tipo" value="Nombre del coche" />
-			</label> <label> <span for="nombre">Origen</span> <input
-				type="text" name="origen" value="Nombre del coche" />
-			</label> <label> <span for="nombre">Tracción</span> <input
-				type="text" name="traccion" value="Nombre del coche" />
-			</label> <label> <span for="nombre">Tamaño del motor</span>
-				<input type="number" name="tamMotor" value="123" />
-			</label> <label> <span for="nombre">Peso</span> <input
-				type="number" name="peso" value="123" />
-			</label> <label> <span for="nombre">Longitud</span> <input
-				type="number" name="longitud" value="123" />
-			</label> <label> <span for="nombre">Precio</span> <input
-				type="number" name="precio" value="123" />
-			</label> <label> <span for="nombre">Cilindros</span> <input
-				type="number" name="cilindros" value="123" />
-			</label> <label> <span for="nombre">Caballos</span> <input
-				type="number" name="caballos" value="123" />
+				value="" />
+			</label> <label> <span>Modelo</span> <input type="text" name="modelo"
+				value="" />
+			</label> <label> <span>Tipo</span> <input type="text" name="tipo"
+				value="" />
+			</label> <label> <span>Origen</span> <input type="text" name="origen"
+				value="" />
+			</label> <label> <span>Tracción</span> <input type="text"
+				name="traccion" value="" />
+			</label> <label> <span>Tamaño del motor</span> <input
+				type="number" name="tamMotor" value="" />
+			</label> <label> <span>Peso</span> <input type="number"
+				name="peso" value="" />
+			</label> <label> <span>Longitud</span> <input type="number"
+				name="longitud" value="" />
+			</label> <label> <span>Precio</span> <input type="number"
+				name="precio" value="" />
+			</label> <label> <span>Cilindros</span> <input type="number"
+				name="cilindros" value="" />
+			</label> <label> <span>Caballos</span> <input type="number"
+				name="caballos" value="" />
+
 			</label> <input class="btn" type="submit" value="Registrar" />
-			
+
 		</fieldset>
 
 	</form>
