@@ -102,13 +102,15 @@ public class Recurso {
 			@FormParam("origen")   String 	origen,   
 			@FormParam("traccion") String 	traccion,
 			@Context HttpServletResponse servletResponse) throws IOException {
+		
+		// Creamos el objeto coche.
 		Coche coche = new Coche(marca, modelo, tipo, origen, traccion, precio, tamMotor, cilindros, caballos, peso, longitud);
-
-		//CochesDao.instance.getModel().put(id, coche);
 
 		//servletResponse.sendRedirect("../crear_coche.html");
 		System.out.println(coche);
-		//System.out.println("Se ha enviado un coche: " + nombre + " | " + apellidos + " | ");
+		
+		// Insertamos el coche en la base de datos.
+		CocheDB.insertar(coche);
 	}
 	
 
