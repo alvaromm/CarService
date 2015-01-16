@@ -138,6 +138,49 @@ public class Recurso {
 		servletResponse.sendRedirect("../../mostrarTablaCoches.jsp");
 	}
 	
+	
+	@POST
+	@Path("/modificarCoche")
+	@Produces(MediaType.TEXT_HTML)
+	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
+	public static void modificarCoche(
+		@FormParam("id") 		int 	id,
+		@FormParam("precio")    int 	precio,  
+		@FormParam("cilindros") int 	cilindros,  
+		@FormParam("caballos")  int 	caballos,  
+		@FormParam("tamMotor") double 	tamMotor,  
+		@FormParam("peso")     double 	peso,   
+		@FormParam("longitud") double 	longitud,  
+		@FormParam("marca")    String 	marca,  	 
+		@FormParam("modelo")   String 	modelo,   
+		@FormParam("tipo")     String 	tipo,  	 
+		@FormParam("origen")   String 	origen,   
+		@FormParam("traccion") String 	traccion,
+		@Context HttpServletResponse servletResponse) throws IOException {
+			// Creamos el objeto coche.
+			Coche c = new Coche();
+			
+			c = CocheDB.getCoche(id);
+			c.setPrecio(precio);
+			c.setCilindros(cilindros);
+			c.setCaballos(caballos);
+			c.setTamMotor(tamMotor);
+			c.setPeso(peso);
+			c.setLongitud(longitud);
+			c.setMarca(marca);
+			c.setModelo(modelo);
+			c.setTipo(tipo);
+			c.setOrigen(origen);
+			c.setTraccion(traccion);
+			
+			CocheDB.actualizar(id, c);
+			
+			System.out.println("Id del coche modificado: " + id);
+		
+		servletResponse.sendRedirect("../../mostrarTablaCoches.jsp");
+	}
+	
+	
 	/**
 	 * 
 	 * @return Devuelve el inventario de coches para mostrarlo con HTML.
@@ -158,7 +201,7 @@ public class Recurso {
 			inventarioHTML = inventarioHTML + "<tr>";
 			// Cada uno de los atributos.
 			inventarioHTML = inventarioHTML
-					+ "<td>" + c.getCarId() 	+ 	"</td>"
+					//+ "<td>" + c.getCarId() 	+ 	"</td>"
 					+ "<td>" + c.getMarca() 	+   "</td>"
 			        + "<td>" + c.getModelo() 	+   "</td>"
 			        + "<td>" + c.getTipo() 		+   "</td>"
@@ -173,6 +216,10 @@ public class Recurso {
 			        + "<td><form action=\"rest/coches/eliminarCoche\" method=\"POST\">"
 			        + "<input type=\"hidden\" name=\"param\" value=\""+c.getCarId()+"\" />"
 			        + "<input class=\"button\" type=\"submit\" value=\"Eliminar\" />"
+			        + "</form>"
+			        + "<form action=\"modificarCoche.jsp\" method=\"POST\">"
+			        + "<input type=\"hidden\" name=\"param\" value=\""+c.getCarId()+"\" />"
+			        + "<input class=\"button\" type=\"submit\" value=\"Modificar\" />"
 			        + "</form></td>";
 			// Final de l�nea.
 			inventarioHTML += "</tr>";
