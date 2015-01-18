@@ -30,26 +30,7 @@ public class Recurso {
 		List<Coche> listaCoches = new ArrayList<Coche>();
 		
 		listaCoches.addAll(CochesDao.instance.getModel().values());
-//		Coche coche = new Coche();
-		Coche coche2 = new Coche("Acura", "RSX Type S 2dr", "Sedan", "Asia", "Front", 23820, 2, 4, 200, 2778, 172);
-//		coche.setCaballos (265);
-//		coche.setCilindros(6);
-//		coche.setLongitud (189);
-//		coche.setMarca    ("Acura");
-//		coche.setModelo   ("MDX");
-//		coche.setOrigen   ("Asiatico");
-//		coche.setPeso     (4451);
-//		coche.setPrecio   (36945);
-//		coche.setTamMotor (3.5);
-//		coche.setTipo     ("SUV");
-//		coche.setTraccion ("All");
-		
-//		CocheDB.existeCoche("MDX");
-//		CocheDB.insertar(coche);
 
-		CocheDB.insertar(coche2);
-		System.out.println("pene");
-//		CocheDB.mostrarBD();
 		return listaCoches;
 	}
 	
@@ -74,8 +55,7 @@ public class Recurso {
 	@Path("/numCoches")
 	@Produces(MediaType.TEXT_PLAIN)
 	public static String getCount() {
-		int count = CochesDao.instance.getModel().size();
-		return String.valueOf(count);
+		return Integer.toString(CocheDB.getCoches().size());
 	}
 	
 	/**
@@ -119,6 +99,7 @@ public class Recurso {
 		
 		// Insertamos el coche en la base de datos.
 		CocheDB.insertar(coche);
+		servletResponse.sendRedirect("../index.jsp");
 	}
 	
 	@POST
@@ -132,7 +113,7 @@ public class Recurso {
 		// Creamos el objeto coche.
 		CocheDB.eliminar(CocheDB.getCoche(Integer.parseInt(id)));
 		System.out.println("Id del coche eliminado: " + id);
-		servletResponse.sendRedirect("../../mostrarTablaCoches.jsp");
+		servletResponse.sendRedirect("../../index.jsp");
 	}
 	
 	
@@ -174,7 +155,7 @@ public class Recurso {
 			
 			System.out.println("Id del coche modificado: " + id);
 		
-		servletResponse.sendRedirect("../../mostrarTablaCoches.jsp");
+		servletResponse.sendRedirect("../../index.jsp");
 	}
 	
 	
@@ -186,11 +167,11 @@ public class Recurso {
 	@Path("/getInventario")
 	@Produces({MediaType.TEXT_HTML})
 	public static String getInventarioHTML() {
-		String inventarioHTML = "";
 		List<Coche> lc;
-		
 		// Obtenemos la lista de los coches.
 		lc = CocheDB.getCoches();		
+		
+		String inventarioHTML = "";
 		
 		// Ahora insertamos cada uno de los coches que hay.
 		for(Coche c : lc) {

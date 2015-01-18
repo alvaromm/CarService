@@ -6,9 +6,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="style.css">
-<title>Formulario Web para modificar un recurso</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<title>Modificar coche</title>
 </head>
+
+<header>
+	<a href="/CarService" id="logo"></a>
+	<nav>
+		<a href="#" id="menu-icon"></a>
+	</nav>
+</header>
 
 <body>
 	<form action="rest/coches/modificarCoche" method="POST" class="basic-grey">
@@ -28,7 +35,7 @@
 			</label> <label> <span>Tipo</span> <input type="text" name="tipo"
 				value=<%=c.getTipo()%> />
 			</label> <label> <span>Origen</span> <input type="text" name="origen"
-				value=<%=c.getTipo()%> />
+				value=<%=c.getOrigen()%> />
 			</label> <label> <span>Tracción</span> <input type="text"
 				name="traccion" value=<%=c.getTraccion()%> />
 			</label> <label> <span>Tamaño del motor</span> <input

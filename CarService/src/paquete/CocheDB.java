@@ -29,19 +29,21 @@ public class CocheDB {
 	 * */
 	public static void insertar(Coche coche) {
 		EntityManager em = factoria.createEntityManager();
-		
 		// Comenzar una nueva transaccion local de tal forma que pueda persistir
 		// como una nueva entidad.
-		em.getTransaction().begin();
-		em.persist(coche);
-		
-		// Ahora hay que hacer "commit" de la transaccion, lo que causara que la
-		// entidad se almacene en la base de datos.
-		em.getTransaction().commit();
-		
-		// Ahora hay que cerrar el EntityManager o perderemos nuestras entradas.
-		em.close();
-		System.out.println("Coche insertado.");
+		if(!existeCoche(coche)){
+			em.getTransaction().begin();
+			em.persist(coche);
+			// Ahora hay que hacer "commit" de la transaccion, lo que causara que la
+			// entidad se almacene en la base de datos.
+			em.getTransaction().commit();
+			// Ahora hay que cerrar el EntityManager o perderemos nuestras entradas.
+			em.close();
+			System.out.println("Coche insertado.");
+		}
+		else{
+			System.out.println("El coche ya estaba insertado.");
+		}
 	}
 	
 	
@@ -60,10 +62,8 @@ public class CocheDB {
 			c = listaCoches.get(0);
 		else 
 			return null;
-		
 		// Cerramos el gestor.
 		em.close();
-		
 		return c;
 	}
 	
@@ -75,15 +75,11 @@ public class CocheDB {
 	 * */
 	public static void actualizar(int idCocheAntiguo, Coche nuevoCoche) {
 		Coche coche_modificado = new Coche();
-		
 		EntityManager em = factoria.createEntityManager();
-		
 		// Buscamos el coche en la base de datos.
 		coche_modificado = em.find(Coche.class, idCocheAntiguo);
-		
 		// Comenzamos una transacci�n.
 		em.getTransaction().begin();
-		
 		// Realizamos los cambios.
 		coche_modificado.setCaballos (nuevoCoche.getCaballos() );
 		coche_modificado.setCilindros(nuevoCoche.getCilindros());
@@ -114,7 +110,6 @@ public class CocheDB {
 	public static void eliminar(Coche coche) {
 		// Para esto, nos crearemos un gestor de entidades "fresco"
 		EntityManager em = factoria.createEntityManager();
-		
 		// Buscamos el usuario en la base de datos.
 		coche = em.find(Coche.class, coche.getCarId());
 		// Comenzamos la transacci�n.
@@ -123,7 +118,6 @@ public class CocheDB {
 		em.remove(coche);
 		// La hacemos permanente.
 		em.getTransaction().commit();
-
 		// Cerramos el gestor.
 		em.close();
 		System.out.println("Coche eliminado.");
@@ -165,16 +159,22 @@ public class CocheDB {
 	 * @param modelo : Modelo que se va a buscar.
 	 * */
 	@SuppressWarnings("unchecked")
-	public static boolean existeCoche(String modelo) {
+	public static boolean existeCoche(Coche coche) {
 		EntityManager em = factoria.createEntityManager();
 		// Begin a new local transaction so that we can persist a new entity
 		// Comenzar una nueva transaccion local de tal manera que podamos hacer
 		// persitente una nueva entidad
 		// Ahora me creare la consulta necesaria eliminar la persona de nombre y
 		// apellidos que indicare despues
-		Query q = em.createQuery("SELECT u FROM Coche u WHERE u.modelo = :modelo");
+		Query q = em.createQuery("SELECT u FROM Coche u WHERE u.modelo = :modelo"
+				+ " AND u.marca = :marca"
+				+ " AND u.caballos = :caballos"
+				+ " AND u.traccion = :traccion");
 		// Ahora asigno los parametros
-		q.setParameter("modelo", modelo);
+		q.setParameter("modelo", coche.getModelo());
+		q.setParameter("marca", coche.getMarca());
+		q.setParameter("caballos", coche.getCaballos());
+		q.setParameter("traccion", coche.getTraccion());
 		// Ahora utilizo el metodo: "getSingleResult()" para obtener a la
 		// persona que me interesa y los metodos: "remove(persona)" y "commit()"
 		// para eliminarla de la entidad y confirmar la eliminacion,
@@ -182,7 +182,7 @@ public class CocheDB {
 		List<Coche> lu = q.getResultList();
 		em.close();     
 		
-		if(lu.size() == 1){
+		if(lu.size() > 0){
 			return true;
 		}
 		else{
