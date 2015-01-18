@@ -13,9 +13,6 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.servlet.http.HttpServletResponse;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.core.Request;
-import javax.ws.rs.core.UriInfo;
 
 //Esta clase solo devuelve una instancia de la clase coche
 @Path("/coches")
@@ -98,7 +95,7 @@ public class Recurso {
 	 * @throws IOException : Lanza una excepci�n si existe alg�n problema de entrada/salida de datos.
 	 */
 	@POST
-	@Produces(MediaType.TEXT_HTML)
+	@Produces(MediaType.TEXT_PLAIN) //TEXT_HTML)
 	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
 	public static void newCoche(
 			@FormParam("precio")    int 	precio,  

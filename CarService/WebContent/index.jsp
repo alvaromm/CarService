@@ -31,7 +31,7 @@
 		<br/> 
 		<a href="http://localhost:8080/CarService/rest/coches/xml">Ver coches XML.</a> 
 		<br/> 
-		<a href="http://localhost:8080/CarService/rest/coches/numCoches">Ver nÃºmero de coches que hay.</a> 
+		<a href="http://localhost:8080/CarService/rest/coches/numCoches">Ver número de coches que hay.</a> 
 		<br/> 
 		<a href="http://localhost:8080/CarService/crearCoche.html">Crear un coche.</a> 
 		<br/> 
