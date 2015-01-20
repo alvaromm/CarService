@@ -1,1 +1,429 @@
-Marca;Modelo;Tipo;Origen;Tracci—n;Precio;TamMotor;Cilindros;Caballos;Peso;Longitud"Acura";"MDX";"SUV";"Asia";"All";36945.00;3.50;6.00;265.00;4451.00;189.00"Acura";"RSX Type S 2dr";"Sedan";"Asia";"Front";23820.00;2.00;4.00;200.00;2778.00;172.00"Acura";"TSX 4dr";"Sedan";"Asia";"Front";26990.00;2.40;4.00;200.00;3230.00;183.00"Acura";"TL 4dr";"Sedan";"Asia";"Front";33195.00;3.20;6.00;270.00;3575.00;186.00"Acura";"3.5 RL 4dr";"Sedan";"Asia";"Front";43755.00;3.50;6.00;225.00;3880.00;197.00"Acura";"3.5 RL w/Navigation 4dr";"Sedan";"Asia";"Front";46100.00;3.50;6.00;225.00;3893.00;197.00"Acura";"NSX coupe 2dr manual S";"Sports";"Asia";"Rear";89765.00;3.20;6.00;290.00;3153.00;174.00"Audi";"A4 1.8T 4dr";"Sedan";"Europe";"Front";25940.00;1.80;4.00;170.00;3252.00;179.00"Audi";"A41.8T convertible 2dr";"Sedan";"Europe";"Front";35940.00;1.80;4.00;170.00;3638.00;180.00"Audi";"A4 3.0 4dr";"Sedan";"Europe";"Front";31840.00;3.00;6.00;220.00;3462.00;179.00"Audi";"A4 3.0 Quattro 4dr manual";"Sedan";"Europe";"All";33430.00;3.00;6.00;220.00;3583.00;179.00"Audi";"A4 3.0 Quattro 4dr auto";"Sedan";"Europe";"All";34480.00;3.00;6.00;220.00;3627.00;179.00"Audi";"A6 3.0 4dr";"Sedan";"Europe";"Front";36640.00;3.00;6.00;220.00;3561.00;192.00"Audi";"A6 3.0 Quattro 4dr";"Sedan";"Europe";"All";39640.00;3.00;6.00;220.00;3880.00;192.00"Audi";"A4 3.0 convertible 2dr";"Sedan";"Europe";"Front";42490.00;3.00;6.00;220.00;3814.00;180.00"Audi";"A4 3.0 Quattro convertible 2dr";"Sedan";"Europe";"All";44240.00;3.00;6.00;220.00;4013.00;180.00"Audi";"A6 2.7 Turbo Quattro 4dr";"Sedan";"Europe";"All";42840.00;2.70;6.00;250.00;3836.00;192.00"Audi";"A6 4.2 Quattro 4dr";"Sedan";"Europe";"All";49690.00;4.20;8.00;300.00;4024.00;193.00"Audi";"A8 L Quattro 4dr";"Sedan";"Europe";"All";69190.00;4.20;8.00;330.00;4399.00;204.00"Audi";"S4 Quattro 4dr";"Sedan";"Europe";"All";48040.00;4.20;8.00;340.00;3825.00;179.00"Audi";"RS 6 4dr";"Sports";"Europe";"Front";84600.00;4.20;8.00;450.00;4024.00;191.00"Audi";"TT 1.8 convertible 2dr (coupe)";"Sports";"Europe";"Front";35940.00;1.80;4.00;180.00;3131.00;159.00"Audi";"TT 1.8 Quattro 2dr (convertible)";"Sports";"Europe";"All";37390.00;1.80;4.00;225.00;2921.00;159.00"Audi";"TT 3.2 coupe 2dr (convertible)";"Sports";"Europe";"All";40590.00;3.20;6.00;250.00;3351.00;159.00"Audi";"A6 3.0 Avant Quattro";"Wagon";"Europe";"All";40840.00;3.00;6.00;220.00;4035.00;192.00"Audi";"S4 Avant Quattro";"Wagon";"Europe";"All";49090.00;4.20;8.00;340.00;3936.00;179.00"BMW";"X3 3.0i";"SUV";"Europe";"All";37000.00;3.00;6.00;225.00;4023.00;180.00"BMW";"X5 4.4i";"SUV";"Europe";"All";52195.00;4.40;8.00;325.00;4824.00;184.00"BMW";"325i 4dr";"Sedan";"Europe";"Rear";28495.00;2.50;6.00;184.00;3219.00;176.00"BMW";"325Ci 2dr";"Sedan";"Europe";"Rear";30795.00;2.50;6.00;184.00;3197.00;177.00"BMW";"325Ci convertible 2dr";"Sedan";"Europe";"Rear";37995.00;2.50;6.00;184.00;3560.00;177.00"BMW";"325xi 4dr";"Sedan";"Europe";"All";30245.00;2.50;6.00;184.00;3461.00;176.00"BMW";"330i 4dr";"Sedan";"Europe";"Rear";35495.00;3.00;6.00;225.00;3285.00;176.00"BMW";"330Ci 2dr";"Sedan";"Europe";"Rear";36995.00;3.00;6.00;225.00;3285.00;176.00"BMW";"330xi 4dr";"Sedan";"Europe";"All";37245.00;3.00;6.00;225.00;3483.00;176.00"BMW";"525i 4dr";"Sedan";"Europe";"Rear";39995.00;2.50;6.00;184.00;3428.00;191.00"BMW";"330Ci convertible 2dr";"Sedan";"Europe";"Rear";44295.00;3.00;6.00;225.00;3616.00;177.00"BMW";"530i 4dr";"Sedan";"Europe";"Rear";44995.00;3.00;6.00;225.00;3472.00;191.00"BMW";"545iA 4dr";"Sedan";"Europe";"Rear";54995.00;4.40;8.00;325.00;3814.00;191.00"BMW";"745i 4dr";"Sedan";"Europe";"Rear";69195.00;4.40;8.00;325.00;4376.00;198.00"BMW";"745Li 4dr";"Sedan";"Europe";"Rear";73195.00;4.40;8.00;325.00;4464.00;204.00"BMW";"M3 coupe 2dr";"Sports";"Europe";"Rear";48195.00;3.20;6.00;333.00;3415.00;177.00"BMW";"M3 convertible 2dr";"Sports";"Europe";"Rear";56595.00;3.20;6.00;333.00;3781.00;177.00"BMW";"Z4 convertible 2.5i 2dr";"Sports";"Europe";"Rear";33895.00;2.50;6.00;184.00;2932.00;161.00"BMW";"Z4 convertible 3.0i 2dr";"Sports";"Europe";"Rear";41045.00;3.00;6.00;225.00;2998.00;161.00"BMW";"325xi Sport";"Wagon";"Europe";"All";32845.00;2.50;6.00;184.00;3594.00;176.00"Buick";"Rainier";"SUV";"USA";"All";37895.00;4.20;6.00;275.00;4600.00;193.00"Buick";"Rendezvous CX";"SUV";"USA";"Front";26545.00;3.40;6.00;185.00;4024.00;187.00"Buick";"Century Custom 4dr";"Sedan";"USA";"Front";22180.00;3.10;6.00;175.00;3353.00;195.00"Buick";"LeSabre Custom 4dr";"Sedan";"USA";"Front";26470.00;3.80;6.00;205.00;3567.00;200.00"Buick";"Regal LS 4dr";"Sedan";"USA";"Front";24895.00;3.80;6.00;200.00;3461.00;196.00"Buick";"Regal GS 4dr";"Sedan";"USA";"Front";28345.00;3.80;6.00;240.00;3536.00;196.00"Buick";"LeSabre Limited 4dr";"Sedan";"USA";"Front";32245.00;3.80;6.00;205.00;3591.00;200.00"Buick";"Park Avenue 4dr";"Sedan";"USA";"Front";35545.00;3.80;6.00;205.00;3778.00;207.00"Buick";"Park Avenue Ultra 4dr";"Sedan";"USA";"Front";40720.00;3.80;6.00;240.00;3909.00;207.00"Cadillac";"Escalade";"SUV";"USA";"Front";52795.00;5.30;8.00;295.00;5367.00;199.00"Cadillac";"SRX V8";"SUV";"USA";"Front";46995.00;4.60;8.00;320.00;4302.00;195.00"Cadillac";"CTS VVT 4dr";"Sedan";"USA";"Rear";30835.00;3.60;6.00;255.00;3694.00;190.00"Cadillac";"Deville 4dr";"Sedan";"USA";"Front";45445.00;4.60;8.00;275.00;3984.00;207.00"Cadillac";"Deville DTS 4dr";"Sedan";"USA";"Front";50595.00;4.60;8.00;300.00;4044.00;207.00"Cadillac";"Seville SLS 4dr";"Sedan";"USA";"Front";47955.00;4.60;8.00;275.00;3992.00;201.00"Cadillac";"XLR convertible 2dr";"Sports";"USA";"Rear";76200.00;4.60;8.00;320.00;3647.00;178.00"Cadillac";"Escalade EXT";"Truck";"USA";"All";52975.00;6.00;8.00;345.00;5879.00;221.00"Chevrolet";"Suburban 1500 LT";"SUV";"USA";"Front";42735.00;5.30;8.00;295.00;4947.00;219.00"Chevrolet";"Tahoe LT";"SUV";"USA";"All";41465.00;5.30;8.00;295.00;5050.00;197.00"Chevrolet";"TrailBlazer LT";"SUV";"USA";"Front";30295.00;4.20;6.00;275.00;4425.00;192.00"Chevrolet";"Tracker";"SUV";"USA";"Front";20255.00;2.50;6.00;165.00;2866.00;163.00"Chevrolet";"Aveo 4dr";"Sedan";"USA";"Front";11690.00;1.60;4.00;103.00;2370.00;167.00"Chevrolet";"Aveo LS 4dr hatch";"Sedan";"USA";"Front";12585.00;1.60;4.00;103.00;2348.00;153.00"Chevrolet";"Cavalier 2dr";"Sedan";"USA";"Front";14610.00;2.20;4.00;140.00;2617.00;183.00"Chevrolet";"Cavalier 4dr";"Sedan";"USA";"Front";14810.00;2.20;4.00;140.00;2676.00;183.00"Chevrolet";"Cavalier LS 2dr";"Sedan";"USA";"Front";16385.00;2.20;4.00;140.00;2617.00;183.00"Chevrolet";"Impala 4dr";"Sedan";"USA";"Front";21900.00;3.40;6.00;180.00;3465.00;200.00"Chevrolet";"Malibu 4dr";"Sedan";"USA";"Front";18995.00;2.20;4.00;145.00;3174.00;188.00"Chevrolet";"Malibu LS 4dr";"Sedan";"USA";"Front";20370.00;3.50;6.00;200.00;3297.00;188.00"Chevrolet";"Monte Carlo LS 2dr";"Sedan";"USA";"Front";21825.00;3.40;6.00;180.00;3340.00;198.00"Chevrolet";"Impala LS 4dr";"Sedan";"USA";"Front";25000.00;3.80;6.00;200.00;3476.00;200.00"Chevrolet";"Impala SS 4dr";"Sedan";"USA";"Front";27995.00;3.80;6.00;240.00;3606.00;200.00"Chevrolet";"Malibu LT 4dr";"Sedan";"USA";"Front";23495.00;3.50;6.00;200.00;3315.00;188.00"Chevrolet";"Monte Carlo SS 2dr";"Sedan";"USA";"Front";24225.00;3.80;6.00;200.00;3434.00;198.00"Chevrolet";"Astro";"Sedan";"USA";"All";26395.00;4.30;6.00;190.00;4605.00;190.00"Chevrolet";"Venture LS";"Sedan";"USA";"Front";27020.00;3.40;6.00;185.00;3699.00;187.00"Chevrolet";"Corvette 2dr";"Sports";"USA";"Rear";44535.00;5.70;8.00;350.00;3246.00;180.00"Chevrolet";"Corvette convertible 2dr";"Sports";"USA";"Rear";51535.00;5.70;;350.00;3248.00;180.00"Chevrolet";"Avalanche 1500";"Truck";"USA";"Al";36100.00;5.30;8.00;295.00;5678.00;222.00"Chevrolet";"Colorado Z85";"Truck";"USA";"All";18760.00;2.80;4.00;175.00;3623.00;192.00"Chevrolet";"Silverado 1500 Regular Cab";"Truck";"USA";"Rear";20310.00;4.30;6.00;200.00;4142.00;206.00"Chevrolet";"Silverado SS";"Truck";"USA";"All";40340.00;6.00;8.00;300.00;4804.00;238.00"Chevrolet";"SSR";"Truck";"USA";"Rear";41995.00;5.30;8.00;300.00;4760.00;191.00"Chevrolet";"Malibu Maxx LS";"Wagon";"USA";"Front";22225.00;3.50;6.00;200.00;3458.00;188.00"Chrysler";"PT Cruiser 4dr";"Sedan";"USA";"Front";17985.00;2.40;4.00;150.00;3101.00;169.00"Chrysler";"PT Cruiser Limited 4dr";"Sedan";"USA";"Front";22000.00;2.40;4.00;150.00;3105.00;169.00"Chrysler";"Sebring 4dr";"Sedan";"USA";"Front";19090.00;2.40;4.00;150.00;3173.00;191.00"Chrysler";"Sebring Touring 4dr";"Sedan";"USA";"Front";21840.00;2.70;6.00;200.00;3222.00;191.00"Chrysler";"300M 4dr";"Sedan";"USA";"Front";29865.00;3.50;6.00;250.00;3581.00;198.00"Chrysler";"Concorde LX 4dr";"Sedan";"USA";"Front";24130.00;2.70;6.00;200.00;3479.00;208.00"Chrysler";"Concorde LXi 4dr";"Sedan";"USA";"Front";26860.00;3.50;6.00;232.00;3548.00;208.00"Chrysler";"PT Cruiser GT 4dr";"Sedan";"USA";"Front";25955.00;2.40;4.00;220.00;3217.00;169.00"Chrysler";"Sebring convertible 2dr";"Sedan";"USA";"Front";25215.00;2.40;4.00;150.00;3357.00;194.00"Chrysler";"300M Special Edition 4dr";"Sedan";"USA";"Front";33295.00;3.50;6.00;255.00;3650.00;198.00"Chrysler";"Sebring Limited convertible 2dr";"Sedan";"USA";"Front";30950.00;2.70;6.00;200.00;3448.00;194.00"Chrysler";"Town and Country LX";"Sedan";"USA";"Front";27490.00;3.30;6.00;180.00;4068.00;201.00"Chrysler";"Town and Country Limited";"Sedan";"USA";"Front";38380.00;3.80;6.00;215.00;4331.00;201.00"Chrysler";"Crossfire 2dr";"Sports";"USA";"Rear";34495.00;3.20;6.00;215.00;3060.00;160.00"Chrysler";"Pacifica";"Wagon";"USA";"Rear";31230.00;3.50;6.00;250.00;4675.00;199.00"Dodge";"Durango SLT";"SUV";"USA";"All";32235.00;4.70;8.00;230.00;4987.00;201.00"Dodge";"Neon SE 4dr";"Sedan";"USA";"Front";13670.00;2.00;4.00;132.00;2581.00;174.00"Dodge";"Neon SXT 4dr";"Sedan";"USA";"Front";15040.00;2.00;4.00;132.00;2626.00;174.00"Dodge";"Intrepid SE 4dr";"Sedan";"USA";"Front";22035.00;2.70;6.00;200.00;3469.00;204.00"Dodge";"Stratus SXT 4dr";"Sedan";"USA";"Front";18820.00;2.40;4.00;150.00;3182.00;191.00"Dodge";"Stratus SE 4dr";"Sedan";"USA";"Front";20220.00;2.40;4.00;150.00;3175.00;191.00"Dodge";"Intrepid ES 4dr";"Sedan";"USA";"Front";24885.00;3.50;6.00;232.00;3487.00;204.00"Dodge";"Caravan SE";"Sedan";"USA";"Front";21795.00;2.40;4.00;150.00;3862.00;189.00"Dodge";"Grand Caravan SXT";"Sedan";"USA";"All";32660.00;3.80;6.00;215.00;4440.00;201.00"Dodge";"Viper SRT-10 convertible 2dr";"Sports";"USA";"Rear";81795.00;8.30;10.00;500.00;3410.00;176.00"Dodge";"Dakota Regular Cab";"Truck";"USA";"Rear";17630.00;3.70;6.00;210.00;3714.00;193.00"Dodge";"Dakota Club Cab";"Truck";"USA";"Rear";20300.00;3.70;6.00;210.00;3829.00;219.00"Dodge";"Ram 1500 Regular Cab ST";"Truck";"USA";"Rear";20215.00;3.70;6.00;215.00;4542.00;208.00"Ford";"Excursion 6.8 XLT";"SUV";"USA";"All";41475.00;6.80;10.00;310.00;7190.00;227.00"Ford";"Expedition 4.6 XLT";"SUV";"USA";"Front";34560.00;4.60;8.00;232.00;5000.00;206.00"Ford";"Explorer XLT V6";"SUV";"USA";"All";29670.00;4.00;6.00;210.00;4463.00;190.00"Ford";"Escape XLS";"SUV";"USA";"All";22515.00;3.00;6.00;201.00;3346.00;173.00"Ford";"Focus ZX3 2dr hatch";"Sedan";"USA";"Front";13270.00;2.00;4.00;130.00;2612.00;168.00"Ford";"Focus LX 4dr";"Sedan";"USA";"Front";13730.00;2.00;4.00;110.00;2606.00;168.00"Ford";"Focus SE 4dr";"Sedan";"USA";"Front";15460.00;2.00;4.00;130.00;2606.00;168.00"Ford";"Focus ZX5 5dr";"Sedan";"USA";"Front";15580.00;2.00;4.00;130.00;2691.00;168.00"Ford";"Focus SVT 2dr";"Sedan";"USA";"Front";19135.00;2.00;4.00;170.00;2750.00;168.00"Ford";"Taurus LX 4dr";"Sedan";"USA";"Front";20320.00;3.00;6.00;155.00;3306.00;198.00"Ford";"Taurus SES Duratec 4dr";"Sedan";"USA";"Front";22735.00;3.00;6.00;201.00;3313.00;198.00"Ford";"Crown Victoria 4dr";"Sedan";"USA";"Rear";24345.00;4.60;8.00;224.00;4057.00;212.00"Ford";"Crown Victoria LX 4dr";"Sedan";"USA";"Rear";27370.00;4.60;8.00;224.00;4057.00;212.00"Ford";"Crown Victoria LX Sport 4dr";"Sedan";"USA";"Rear";30315.00;4.60;8.00;239.00;4057.00;212.00"Ford";"Freestar SE";"Sedan";"USA";"Front";26930.00;3.90;6.00;193.00;4275.00;201.00"Ford";"Mustang 2dr (convertible)";"Sports";"USA";"Rear";18345.00;3.80;6.00;193.00;3290.00;183.00"Ford";"Mustang GT Premium convertible 2dr";"Sports";"USA";"Rear";29380.00;4.60;8.00;260.00;3347.00;183.00"Ford";"Thunderbird Deluxe convert w/hardtop 2d";"Sports";"USA";"Front";37530.00;3.90;8.00;280.00;3780.00;186.00"Ford";"F-150 Regular Cab XL";"Truck";"USA";"Rear";22010.00;4.60;8.00;231.00;4788.00;211.00"Ford";"F-150 Supercab Lariat";"Truck";"USA";"Al";33540.00;5.40;8.00;300.00;5464.00;218.00"Ford";"Ranger 2.3 XL Regular Cab";"Truck";"USA";"Rear";14385.00;2.30;4.00;143.00;3028.00;188.00"Ford";"Focus ZTW";"Wagon";"USA";"Front";17475.00;2.00;4.00;130.00;2702.00;178.00"Ford";"Taurus SE";"Wagon";"USA";"Front";22290.00;3.00;6.00;155.00;3497.00;198.00"GMC";"Envoy XUV SLE";"SUV";"USA";"Front";31890.00;4.20;6.00;275.00;4945.00;208.00"GMC";"Yukon 1500 SLE";"SUV";"USA";"Front";35725.00;4.80;8.00;285.00;5042.00;199.00"GMC";"Yukon XL 2500 SLT";"SUV";"USA";"All";46265.00;6.00;8.00;325.00;6133.00;219.00"GMC";"Safari SLE";"Sedan";"USA";"Rear";25640.00;4.30;6.00;190.00;4309.00;190.00"GMC";"Canyon Z85 SL Regular Cab";"Truck";"USA";"Rear";16530.00;2.80;4.00;175.00;3351.00;192.00"GMC";"Sierra Extended Cab 1500";"Truck";"USA";"Rear";25717.00;4.80;8.00;285.00;4548.00;230.00"GMC";"Sierra HD 2500";"Truck";"USA";"All";29322.00;6.00;8.00;300.00;5440.00;222.00"GMC";"Sonoma Crew Cab";"Truck";"USA";"All";25395.00;4.30;6.00;190.00;4083.00;208.00"Honda";"Civic Hybrid 4dr manual (gas/electric)";"Hybrid";"Asia";"Front";20140.00;1.40;4.00;93.00;2732.00;175.00"Honda";"Insight 2dr (gas/electric)";"Hybrid";"Asia";"Front";19110.00;2.00;3.00;73.00;1850.00;155.00"Honda";"Pilot LX";"SUV";"Asia";"All";27560.00;3.50;6.00;240.00;4387.00;188.00"Honda";"CR-V LX";"SUV";"Asia";"All";19860.00;2.40;4.00;160.00;3258.00;179.00"Honda";"Element LX";"SUV";"Asia";"All";18690.00;2.40;4.00;160.00;3468.00;167.00"Honda";"Civic DX 2dr";"Sedan";"Asia";"Front";13270.00;1.70;4.00;115.00;2432.00;175.00"Honda";"Civic HX 2dr";"Sedan";"Asia";"Front";14170.00;1.70;4.00;117.00;2500.00;175.00"Honda";"Civic LX 4dr";"Sedan";"Asia";"Front";15850.00;1.70;4.00;115.00;2513.00;175.00"Honda";"Accord LX 2dr";"Sedan";"Asia";"Front";19860.00;2.40;4.00;160.00;2994.00;188.00"Honda";"Accord EX 2dr";"Sedan";"Asia";"Front";22260.00;2.40;4.00;160.00;3047.00;188.00"Honda";"Civic EX 4dr";"Sedan";"Asia";"Front";17750.00;1.70;4.00;127.00;2601.00;175.00"Honda";"Civic Si 2dr hatch";"Sedan";"Asia";"Front";19490.00;2.00;4.00;160.00;2782.00;166.00"Honda";"Accord LX V6 4dr";"Sedan";"Asia";"Front";23760.00;3.00;6.00;240.00;3349.00;190.00"Honda";"Accord EX V6 2dr";"Sedan";"Asia";"Front";26960.00;3.00;6.00;240.00;3294.00;188.00"Honda";"Odyssey LX";"Sedan";"Asia";"Front";24950.00;3.50;6.00;240.00;4310.00;201.00"Honda";"Odyssey EX";"Sedan";"Asia";"Front";27450.00;3.50;6.00;240.00;4365.00;201.00"Honda";"S2000 convertible 2dr";"Sports";"Asia";"Rear";33260.00;2.20;4.00;240.00;2835.00;162.00"Hummer";"H2";"SUV";"USA";"All";49995.00;6.00;8.00;316.00;6400.00;190.00"Hyundai";"Santa Fe GLS";"SUV";"Asia";"Front";21589.00;2.70;6.00;173.00;3549.00;177.00"Hyundai";"Accent 2dr hatch";"Sedan";"Asia";"Front";10539.00;1.60;4.00;103.00;2255.00;167.00"Hyundai";"Accent GL 4dr";"Sedan";"Asia";"Front";11839.00;1.60;4.00;103.00;2290.00;167.00"Hyundai";"Accent GT 2dr hatch";"Sedan";"Asia";"Front";11939.00;1.60;4.00;103.00;2339.00;167.00"Hyundai";"Elantra GLS 4dr";"Sedan";"Asia";"Front";13839.00;2.00;4.00;138.00;2635.00;178.00"Hyundai";"Elantra GT 4dr";"Sedan";"Asia";"Front";15389.00;2.00;4.00;138.00;2635.00;178.00"Hyundai";"Elantra GT 4dr hatch";"Sedan";"Asia";"Front";15389.00;2.00;4.00;138.00;2698.00;178.00"Hyundai";"Sonata GLS 4dr";"Sedan";"Asia";"Front";19339.00;2.70;6.00;170.00;3217.00;187.00"Hyundai";"Sonata LX 4dr";"Sedan";"Asia";"Front";20339.00;2.70;6.00;170.00;3217.00;187.00"Hyundai";"XG350 4dr";"Sedan";"Asia";"Front";24589.00;3.50;6.00;194.00;3651.00;192.00"Hyundai";"XG350 L 4dr";"Sedan";"Asia";"Front";26189.00;3.50;6.00;194.00;3651.00;192.00"Hyundai";"Tiburon GT V6 2dr";"Sports";"Asia";"Front";18739.00;2.70;6.00;172.00;3023.00;173.00"Infiniti";"G35 4dr";"Sedan";"Asia";"Rear";28495.00;3.50;6.00;260.00;3336.00;187.00"Infiniti";"G35 Sport Coupe 2dr";"Sedan";"Asia";"Rear";29795.00;3.50;6.00;280.00;3416.00;182.00"Infiniti";"G35 4dr";"Sedan";"Asia";"All";32445.00;3.50;6.00;260.00;3677.00;187.00"Infiniti";"I35 4dr";"Sedan";"Asia";"Front";31145.00;3.50;6.00;255.00;3306.00;194.00"Infiniti";"M45 4dr";"Sedan";"Asia";"Rear";42845.00;4.50;8.00;340.00;3851.00;197.00"Infiniti";"Q45 Luxury 4dr";"Sedan";"Asia";"Rear";52545.00;4.50;8.00;340.00;3977.00;200.00"Infiniti";"FX35";"Wagon";"Asia";"Rear";34895.00;3.50;6.00;280.00;4056.00;189.00"Infiniti";"FX45";"Wagon";"Asia";"All";36395.00;4.50;8.00;315.00;4309.00;189.00"Isuzu";"Ascender S";"SUV";"Asia";"All";31849.00;4.20;6.00;275.00;4967.00;208.00"Isuzu";"Rodeo S";"SUV";"Asia";"Front";20449.00;3.20;6.00;193.00;3836.00;178.00"Jaguar";"X-Type 2.5 4dr";"Sedan";"Europe";"All";29995.00;2.50;6.00;192.00;3428.00;184.00"Jaguar";"X-Type 3.0 4dr";"Sedan";"Europe";"All";33995.00;3.00;6.00;227.00;3516.00;184.00"Jaguar";"S-Type 3.0 4dr";"Sedan";"Europe";"Rear";43895.00;3.00;6.00;235.00;3777.00;192.00"Jaguar";"S-Type 4.2 4dr";"Sedan";"Europe";"Rear";49995.00;4.20;8.00;294.00;3874.00;192.00"Jaguar";"S-Type R 4dr";"Sedan";"Europe";"Rear";63120.00;4.20;8.00;390.00;4046.00;192.00"Jaguar";"Vanden Plas 4dr";"Sedan";"Europe";"Rear";68995.00;4.20;8.00;294.00;3803.00;200.00"Jaguar";"XJ8 4dr";"Sedan";"Europe";"Rear";59995.00;4.20;8.00;294.00;3803.00;200.00"Jaguar";"XJR 4dr";"Sedan";"Europe";"Rear";74995.00;4.20;8.00;390.00;3948.00;200.00"Jaguar";"XK8 coupe 2dr";"Sports";"Europe";"Rear";69995.00;4.20;8.00;294.00;3779.00;187.00"Jaguar";"XK8 convertible 2dr";"Sports";"Europe";"Rear";74995.00;4.20;8.00;294.00;3980.00;187.00"Jaguar";"XKR coupe 2dr";"Sports";"Europe";"Rear";81995.00;4.20;8.00;390.00;3865.00;187.00"Jaguar";"XKR convertible 2dr";"Sports";"Europe";"Rear";86995.00;4.20;8.00;390.00;4042.00;187.00"Jeep";"Grand Cherokee Laredo";"SUV";"USA";"Front";27905.00;4.00;6.00;195.00;3790.00;181.00"Jeep";"Liberty Sport";"SUV";"USA";"All";20130.00;2.40;4.00;150.00;3826.00;174.00"Jeep";"Wrangler Sahara convertible 2dr";"SUV";"USA";"All";25520.00;4.00;6.00;190.00;3575.00;150.00"Kia";"Sorento LX";"SUV";"Asia";"Front";19635.00;3.50;6.00;192.00;4112.00;180.00"Kia";"Optima LX 4dr";"Sedan";"Asia";"Front";16040.00;2.40;4.00;138.00;3281.00;186.00"Kia";"Rio 4dr manual";"Sedan";"Asia";"Front";10280.00;1.60;4.00;104.00;2403.00;167.00"Kia";"Rio 4dr auto";"Sedan";"Asia";"Front";11155.00;1.60;4.00;104.00;2458.00;167.00"Kia";"Spectra 4dr";"Sedan";"Asia";"Front";12360.00;1.80;4.00;124.00;2661.00;178.00"Kia";"Spectra GS 4dr hatch";"Sedan";"Asia";"Front";13580.00;1.80;4.00;124.00;2686.00;178.00"Kia";"Spectra GSX 4dr hatch";"Sedan";"Asia";"Front";14630.00;1.80;4.00;124.00;2697.00;178.00"Kia";"Optima LX V6 4dr";"Sedan";"Asia";"Front";18435.00;2.70;6.00;170.00;3279.00;186.00"Kia";"Amanti 4dr";"Sedan";"Asia";"Front";26000.00;3.50;6.00;195.00;4021.00;196.00"Kia";"Sedona LX";"Sedan";"Asia";"Front";20615.00;3.50;6.00;195.00;4802.00;194.00"Kia";"Rio Cinco";"Wagon";"Asia";"Front";11905.00;1.60;4.00;104.00;2447.00;167.00"Land Rover";"Range Rover HSE";"SUV";"Europe";"All";72250.00;4.40;8.00;282.00;5379.00;195.00"Land Rover";"Discovery SE";"SUV";"Europe";"All";39250.00;4.60;8.00;217.00;4576.00;185.00"Land Rover";"Freelander SE";"SUV";"Europe";"All";25995.00;2.50;6.00;174.00;3577.00;175.00"Lexus";"GX 470";"SUV";"Asia";"All";45700.00;4.70;8.00;235.00;4740.00;188.00"Lexus";"LX 470";"SUV";"Asia";"All";64800.00;4.70;8.00;235.00;5590.00;193.00"Lexus";"RX 330";"SUV";"Asia";"All";39195.00;3.30;6.00;230.00;4065.00;186.00"Lexus";"ES 330 4dr";"Sedan";"Asia";"Front";32350.00;3.30;6.00;225.00;3460.00;191.00"Lexus";"IS 300 4dr manual";"Sedan";"Asia";"Rear";31045.00;3.00;6.00;215.00;3255.00;177.00"Lexus";"IS 300 4dr auto";"Sedan";"Asia";"Rear";32415.00;3.00;6.00;215.00;3285.00;177.00"Lexus";"GS 300 4dr";"Sedan";"Asia";"Rear";41010.00;3.00;6.00;220.00;3649.00;189.00"Lexus";"GS 430 4dr";"Sedan";"Asia";"Rear";48450.00;4.30;8.00;300.00;3715.00;189.00"Lexus";"LS 430 4dr";"Sedan";"Asia";"Rear";55750.00;4.30;8.00;290.00;3990.00;197.00"Lexus";"SC 430 convertible 2dr";"Sports";"Asia";"Rear";63200.00;4.30;8.00;300.00;3840.00;178.00"Lexus";"IS 300 SportCross";"Wagon";"Asia";"Rear";32455.00;3.00;6.00;215.00;3410.00;177.00"Lincoln";"Navigator Luxury";"SUV";"USA";"All";52775.00;5.40;8.00;300.00;5969.00;206.00"Lincoln";"Aviator Ultimate";"SUV";"USA";"Front";42915.00;4.60;8.00;302.00;4834.00;193.00"Lincoln";"LS V6 Luxury 4dr";"Sedan";"USA";"Rear";32495.00;3.00;6.00;232.00;3681.00;194.00"Lincoln";"LS V6 Premium 4dr";"Sedan";"USA";"Rear";36895.00;3.00;6.00;232.00;3681.00;194.00"Lincoln";"LS V8 Sport 4dr";"Sedan";"USA";"Rear";40095.00;3.90;8.00;280.00;3768.00;194.00"Lincoln";"LS V8 Ultimate 4dr";"Sedan";"USA";"Rear";43495.00;3.90;8.00;280.00;3768.00;194.00"Lincoln";"Town Car Signature 4dr";"Sedan";"USA";"Rear";41815.00;4.60;8.00;239.00;4369.00;215.00"Lincoln";"Town Car Ultimate 4dr";"Sedan";"USA";"Rear";44925.00;4.60;8.00;239.00;4369.00;215.00"Lincoln";"Town Car Ultimate L 4dr";"Sedan";"USA";"Rear";50470.00;4.60;8.00;239.00;4474.00;221.00"MINI";"Cooper";"Sedan";"Europe";"Front";16999.00;1.60;4.00;115.00;2524.00;143.00"MINI";"Cooper S";"Sedan";"Europe";"Front";19999.00;1.60;4.00;163.00;2678.00;144.00"Mazda";"Tribute DX 2.0";"SUV";"Asia";"All";21087.00;2.00;4.00;130.00;3091.00;173.00"Mazda";"Mazda3 i 4dr";"Sedan";"Asia";"Front";15500.00;2.00;4.00;148.00;2696.00;178.00"Mazda";"Mazda3 s 4dr";"Sedan";"Asia";"Front";17200.00;2.30;4.00;160.00;2762.00;179.00"Mazda";"Mazda6 i 4dr";"Sedan";"Asia";"Front";19270.00;2.30;4.00;160.00;3042.00;187.00"Mazda";"MPV ES";"Sedan";"Asia";"Front";28750.00;3.00;6.00;200.00;3812.00;188.00"Mazda";"MX-5 Miata convertible 2dr";"Sports";"Asia";"Rear";22388.00;1.80;4.00;142.00;2387.00;156.00"Mazda";"MX-5 Miata LS convertible 2dr";"Sports";"Asia";"Rear";25193.00;1.80;4.00;142.00;2387.00;156.00"Mazda";"RX-8 4dr automatic";"Sports";"Asia";"Rear";25700.00;1.30;;197.00;3053.00;174.00"Mazda";"RX-8 4dr manual";"Sports";"Asia";"Rear";27200.00;1.30;;238.00;3029.00;174.00"Mazda";"B2300 SX Regular Cab";"Truck";"Asia";"Rear";14840.00;2.30;4.00;143.00;2960.00;188.00"Mazda";"B4000 SE Cab Plus";"Truck";"Asia";"All";22350.00;4.00;6.00;207.00;3571.00;203.00"Mercedes-Benz";"G500";"SUV";"Europe";"All";76870.00;5.00;8.00;292.00;5423.00;186.00"Mercedes-Benz";"ML500";"SUV";"Europe";"All";46470.00;5.00;8.00;288.00;4874.00;183.00"Mercedes-Benz";"C230 Sport 2dr";"Sedan";"Europe";"Rear";26060.00;1.80;4.00;189.00;3250.00;178.00"Mercedes-Benz";"C320 Sport 2dr";"Sedan";"Europe";"Rear";28370.00;3.20;6.00;215.00;3430.00;178.00"Mercedes-Benz";"C240 4dr";"Sedan";"Europe";"Rear";32280.00;2.60;6.00;168.00;3360.00;178.00"Mercedes-Benz";"C240 4dr";"Sedan";"Europe";"All";33480.00;2.60;6.00;168.00;3360.00;178.00"Mercedes-Benz";"C320 Sport 4dr";"Sedan";"Europe";"Rear";35920.00;3.20;6.00;215.00;3430.00;178.00"Mercedes-Benz";"C320 4dr";"Sedan";"Europe";"Rear";37630.00;3.20;6.00;215.00;3450.00;178.00"Mercedes-Benz";"C320 4dr";"Sedan";"Europe";"All";38830.00;3.20;6.00;215.00;3450.00;178.00"Mercedes-Benz";"C32 AMG 4dr";"Sedan";"Europe";"Rear";52120.00;3.20;6.00;349.00;3540.00;178.00"Mercedes-Benz";"CL500 2dr";"Sedan";"Europe";"Rear";94820.00;5.00;8.00;302.00;4085.00;196.00"Mercedes-Benz";"CL600 2dr";"Sedan";"Europe";"Rear";128420.00;5.50;12.00;493.00;4473.00;196.00"Mercedes-Benz";"CLK320 coupe 2dr (convertible)";"Sedan";"Europe";"Rear";45707.00;3.20;6.00;215.00;3770.00;183.00"Mercedes-Benz";"CLK500 coupe 2dr (convertible)";"Sedan";"Europe";"Rear";52800.00;5.00;8.00;302.00;3585.00;183.00"Mercedes-Benz";"E320 4dr";"Sedan";"Europe";"Rear";48170.00;3.20;6.00;221.00;3635.00;190.00"Mercedes-Benz";"E500 4dr";"Sedan";"Europe";"Rear";57270.00;5.00;8.00;302.00;3815.00;190.00"Mercedes-Benz";"S430 4dr";"Sedan";"Europe";"Rear";74320.00;4.30;8.00;275.00;4160.00;203.00"Mercedes-Benz";"S500 4dr";"Sedan";"Europe";"All";86970.00;5.00;8.00;302.00;4390.00;203.00"Mercedes-Benz";"SL500 convertible 2dr";"Sports";"Europe";"Rear";90520.00;5.00;8.00;302.00;4065.00;179.00"Mercedes-Benz";"SL55 AMG 2dr";"Sports";"Europe";"Rear";121770.00;5.50;8.00;493.00;4235.00;179.00"Mercedes-Benz";"SL600 convertible 2dr";"Sports";"Europe";"Rear";126670.00;5.50;12.00;493.00;4429.00;179.00"Mercedes-Benz";"SLK230 convertible 2dr";"Sports";"Europe";"Rear";40320.00;2.30;4.00;192.00;3055.00;158.00"Mercedes-Benz";"SLK32 AMG 2dr";"Sports";"Europe";"Rear";56170.00;3.20;6.00;349.00;3220.00;158.00"Mercedes-Benz";"C240";"Wagon";"Europe";"Rear";33780.00;2.60;6.00;168.00;3470.00;179.00"Mercedes-Benz";"E320";"Wagon";"Europe";"Rear";50670.00;3.20;6.00;221.00;3966.00;190.00"Mercedes-Benz";"E500";"Wagon";"Europe";"All";60670.00;5.00;8.00;302.00;4230.00;190.00"Mercury";"Mountaineer";"SUV";"USA";"Front";29995.00;4.00;6.00;210.00;4374.00;190.00"Mercury";"Sable GS 4dr";"Sedan";"USA";"Front";21595.00;3.00;6.00;155.00;3308.00;200.00"Mercury";"Grand Marquis GS 4dr";"Sedan";"USA";"Rear";24695.00;4.60;8.00;224.00;4052.00;212.00"Mercury";"Grand Marquis LS Premium 4dr";"Sedan";"USA";"Rear";29595.00;4.60;8.00;224.00;4052.00;212.00"Mercury";"Sable LS Premium 4dr";"Sedan";"USA";"Front";23895.00;3.00;6.00;201.00;3315.00;200.00"Mercury";"Grand Marquis LS Ultimate 4dr";"Sedan";"USA";"Rear";30895.00;4.60;8.00;224.00;4052.00;212.00"Mercury";"Marauder 4dr";"Sedan";"USA";"Rear";34495.00;4.60;8.00;302.00;4195.00;212.00"Mercury";"Monterey Luxury";"Sedan";"USA";"Front";33995.00;4.20;6.00;201.00;4340.00;202.00"Mercury";"Sable GS";"Wagon";"USA";"Front";22595.00;3.00;6.00;155.00;3488.00;198.00"Mitsubishi";"Endeavor XLS";"SUV";"Asia";"All";30492.00;3.80;6.00;215.00;4134.00;190.00"Mitsubishi";"Montero XLS";"SUV";"Asia";"All";33112.00;3.80;6.00;215.00;4718.00;190.00"Mitsubishi";"Outlander LS";"SUV";"Asia";"Front";18892.00;2.40;4.00;160.00;3240.00;179.00"Mitsubishi";"Lancer ES 4dr";"Sedan";"Asia";"Front";14622.00;2.00;4.00;120.00;2656.00;181.00"Mitsubishi";"Lancer LS 4dr";"Sedan";"Asia";"Front";16722.00;2.00;4.00;120.00;2795.00;181.00"Mitsubishi";"Galant ES 2.4L 4dr";"Sedan";"Asia";"Front";19312.00;2.40;4.00;160.00;3351.00;191.00"Mitsubishi";"Lancer OZ Rally 4dr auto";"Sedan";"Asia";"Front";17232.00;2.00;4.00;120.00;2744.00;181.00"Mitsubishi";"Diamante LS 4dr";"Sedan";"Asia";"Front";29282.00;3.50;6.00;205.00;3549.00;194.00"Mitsubishi";"Galant GTS 4dr";"Sedan";"Asia";"Front";25700.00;3.80;6.00;230.00;3649.00;191.00"Mitsubishi";"Eclipse GTS 2dr";"Sports";"Asia";"Front";25092.00;3.00;6.00;210.00;3241.00;177.00"Mitsubishi";"Eclipse Spyder GT convertible 2dr";"Sports";"Asia";"Front";26992.00;3.00;6.00;210.00;3296.00;177.00"Mitsubishi";"Lancer Evolution 4dr";"Sports";"Asia";"Front";29562.00;2.00;4.00;271.00;3263.00;179.00"Mitsubishi";"Lancer Sportback LS";"Wagon";"Asia";"Front";17495.00;2.40;4.00;160.00;3020.00;181.00"Nissan";"Pathfinder Armada SE";"SUV";"Asia";"Front";33840.00;5.60;8.00;305.00;5013.00;207.00"Nissan";"Pathfinder SE";"SUV";"Asia";"Front";27339.00;3.50;6.00;240.00;3871.00;183.00"Nissan";"Xterra XE V6";"SUV";"Asia";"Front";20939.00;3.30;6.00;180.00;3760.00;178.00"Nissan";"Sentra 1.8 4dr";"Sedan";"Asia";"Front";12740.00;1.80;4.00;126.00;2513.00;178.00"Nissan";"Sentra 1.8 S 4dr";"Sedan";"Asia";"Front";14740.00;1.80;4.00;126.00;2581.00;178.00"Nissan";"Altima S 4dr";"Sedan";"Asia";"Front";19240.00;2.50;4.00;175.00;3039.00;192.00"Nissan";"Sentra SE-R 4dr";"Sedan";"Asia";"Front";17640.00;2.50;4.00;165.00;2761.00;178.00"Nissan";"Altima SE 4dr";"Sedan";"Asia";"Front";23290.00;3.50;6.00;245.00;3197.00;192.00"Nissan";"Maxima SE 4dr";"Sedan";"Asia";"Front";27490.00;3.50;6.00;265.00;3473.00;194.00"Nissan";"Maxima SL 4dr";"Sedan";"Asia";"Front";29440.00;3.50;6.00;265.00;3476.00;194.00"Nissan";"Quest S";"Sedan";"Asia";"Front";24780.00;3.50;6.00;240.00;4012.00;204.00"Nissan";"Quest SE";"Sedan";"Asia";"Front";32780.00;3.50;6.00;240.00;4175.00;204.00"Nissan";"350Z coupe 2dr";"Sports";"Asia";"Rear";26910.00;3.50;6.00;287.00;3188.00;169.00"Nissan";"350Z Enthusiast convertible 2dr";"Sports";"Asia";"Rear";34390.00;3.50;6.00;287.00;3428.00;169.00"Nissan";"Frontier King Cab XE V6";"Truck";"Asia";"All";19479.00;3.30;6.00;180.00;3932.00;191.00"Nissan";"Titan King Cab XE";"Truck";"Asia";"All";26650.00;5.60;8.00;305.00;5287.00;224.00"Nissan";"Murano SL";"Wagon";"Asia";"Rear";28739.00;3.50;6.00;245.00;3801.00;188.00"Oldsmobile";"Alero GX 2dr";"Sedan";"USA";"Front";18825.00;2.20;4.00;140.00;2946.00;187.00"Oldsmobile";"Alero GLS 2dr";"Sedan";"USA";"Front";23675.00;3.40;6.00;170.00;3085.00;187.00"Oldsmobile";"Silhouette GL";"Sedan";"USA";"Front";28790.00;3.40;6.00;185.00;3948.00;201.00"Pontiac";"Aztekt";"SUV";"USA";"Front";21595.00;3.40;6.00;185.00;3779.00;182.00"Pontiac";"Sunfire 1SA 2dr";"Sedan";"USA";"Front";15495.00;2.20;4.00;140.00;2771.00;182.00"Pontiac";"Grand Am GT 2dr";"Sedan";"USA";"Front";22450.00;3.40;6.00;175.00;3118.00;186.00"Pontiac";"Grand Prix GT1 4dr";"Sedan";"USA";"Front";22395.00;3.80;6.00;200.00;3477.00;198.00"Pontiac";"Sunfire 1SC 2dr";"Sedan";"USA";"Front";17735.00;2.20;4.00;140.00;2771.00;182.00"Pontiac";"Grand Prix GT2 4dr";"Sedan";"USA";"Front";24295.00;3.80;6.00;200.00;3484.00;198.00"Pontiac";"Bonneville GXP 4dr";"Sedan";"USA";"Front";35995.00;4.60;8.00;275.00;3790.00;203.00"Pontiac";"Montana";"Sedan";"USA";"Front";23845.00;3.40;6.00;185.00;3803.00;187.00"Pontiac";"Montana EWB";"Sedan";"USA";"All";31370.00;3.40;6.00;185.00;4431.00;201.00"Pontiac";"GTO 2dr";"Sports";"USA";"Rear";33500.00;5.70;8.00;340.00;3725.00;190.00"Pontiac";"Vibe";"Wagon";"USA";"Rear";17045.00;1.80;4.00;130.00;2701.00;172.00"Porsche";"Cayenne S";"SUV";"Europe";"All";56665.00;4.50;8.00;340.00;4950.00;188.00"Porsche";"911 Carrera convertible 2dr (coupe)";"Sports";"Europe";"Rear";79165.00;3.60;6.00;315.00;3135.00;175.00"Porsche";"911 Carrera 4S coupe 2dr (convert)";"Sports";"Europe";"All";84165.00;3.60;6.00;315.00;3240.00;175.00"Porsche";"911 Targa coupe 2dr";"Sports";"Europe";"Rear";76765.00;3.60;6.00;315.00;3119.00;175.00"Porsche";"911 GT2 2dr";"Sports";"Europe";"Rear";192465.00;3.60;6.00;477.00;3131.00;175.00"Porsche";"Boxster convertible 2dr";"Sports";"Europe";"Rear";43365.00;2.70;6.00;228.00;2811.00;170.00"Porsche";"Boxster S convertible 2dr";"Sports";"Europe";"Rear";52365.00;3.20;6.00;258.00;2911.00;170.00"Saab";"9-3 Arc Sport 4dr";"Sedan";"Europe";"Front";30860.00;2.00;4.00;210.00;3175.00;183.00"Saab";"9-3 Aero 4dr";"Sedan";"Europe";"Front";33360.00;2.00;4.00;210.00;3175.00;183.00"Saab";"9-5 Arc 4dr";"Sedan";"Europe";"Front";35105.00;2.30;4.00;220.00;3470.00;190.00"Saab";"9-5 Aero 4dr";"Sedan";"Europe";"Front";39465.00;2.30;4.00;250.00;3470.00;190.00"Saab";"9-3 Arc convertible 2dr";"Sedan";"Europe";"Front";40670.00;2.00;4.00;210.00;3480.00;182.00"Saab";"9-3 Aero convertible 2dr";"Sedan";"Europe";"Front";43175.00;2.00;4.00;210.00;3700.00;182.00"Saab";"9-5 Aero";"Wagon";"Europe";"Front";40845.00;2.30;4.00;250.00;3620.00;190.00"Saturn";"VUE";"SUV";"USA";"All";20585.00;2.20;4.00;143.00;3381.00;181.00"Saturn";"Ion1 4dr";"Sedan";"USA";"Front";10995.00;2.20;4.00;140.00;2692.00;185.00"Saturn";"lon2 4dr";"Sedan";"USA";"Front";14300.00;2.20;4.00;140.00;2692.00;185.00"Saturn";"lon3 4dr";"Sedan";"USA";"Front";15825.00;2.20;4.00;140.00;2692.00;185.00"Saturn";"lon2 quad coupe 2dr";"Sedan";"USA";"Front";14850.00;2.20;4.00;140.00;2751.00;185.00"Saturn";"lon3 quad coupe 2dr";"Sedan";"USA";"Front";16350.00;2.20;4.00;140.00;2751.00;185.00"Saturn";"L300-2 4dr";"Sedan";"USA";"Front";21410.00;3.00;6.00;182.00;3197.00;190.00"Saturn";"L300 2";"Wagon";"USA";"Front";23560.00;2.20;4.00;140.00;3109.00;190.00"Scion";"xA 4dr hatch";"Sedan";"Asia";"Front";12965.00;1.50;4.00;108.00;2340.00;154.00"Scion";"xB";"Wagon";"Asia";"Front";14165.00;1.50;4.00;108.00;2425.00;155.00"Subaru";"Impreza 2.5 RS 4dr";"Sedan";"Asia";"All";19945.00;2.50;4.00;165.00;2965.00;174.00"Subaru";"Legacy L 4dr";"Sedan";"Asia";"All";20445.00;2.50;4.00;165.00;3285.00;184.00"Subaru";"Legacy GT 4dr";"Sedan";"Asia";"All";25645.00;2.50;4.00;165.00;3395.00;184.00"Subaru";"Outback Limited Sedan 4dr";"Sedan";"Asia";"All";27145.00;2.50;4.00;165.00;3495.00;184.00"Subaru";"Outback H6 4dr";"Sedan";"Asia";"All";29345.00;3.00;6.00;212.00;3610.00;184.00"Subaru";"Outback H-6 VDC 4dr";"Sedan";"Asia";"All";31545.00;3.00;6.00;212.00;3630.00;184.00"Subaru";"Impreza WRX 4dr";"Sports";"Asia";"All";25045.00;2.00;4.00;227.00;3085.00;174.00"Subaru";"Impreza WRX STi 4dr";"Sports";"Asia";"All";31545.00;2.50;4.00;300.00;3263.00;174.00"Subaru";"Baja";"Truck";"Asia";"All";24520.00;2.50;4.00;165.00;3485.00;193.00"Subaru";"Forester X";"Wagon";"Asia";"All";21445.00;2.50;4.00;165.00;3090.00;175.00"Subaru";"Outback";"Wagon";"Asia";"All";23895.00;2.50;4.00;165.00;3430.00;187.00"Suzuki";"XL-7 EX";"SUV";"Asia";"Front";23699.00;2.70;6.00;185.00;3682.00;187.00"Suzuki";"Vitara LX";"SUV";"Asia";"All";17163.00;2.50;6.00;165.00;3020.00;163.00"Suzuki";"Aeno S 4dr";"Sedan";"Asia";"Front";12884.00;2.30;4.00;155.00;2676.00;171.00"Suzuki";"Aerio LX 4dr";"Sedan";"Asia";"Front";14500.00;2.30;4.00;155.00;2676.00;171.00"Suzuki";"Forenza S 4dr";"Sedan";"Asia";"Front";12269.00;2.00;4.00;119.00;2701.00;177.00"Suzuki";"Forenza EX 4dr";"Sedan";"Asia";"Front";15568.00;2.00;4.00;119.00;2756.00;177.00"Suzuki";"Verona LX 4dr";"Sedan";"Asia";"Front";17262.00;2.50;6.00;155.00;3380.00;188.00"Suzuki";"Aerio SX";"Wagon";"Asia";"All";16497.00;2.30;4.00;155.00;2932.00;167.00"Toyota";"Prius 4dr (gas/electric)";"Hybrid";"Asia";"Front";20510.00;1.50;4.00;110.00;2890.00;175.00"Toyota";"Sequoia SR5";"SUV";"Asia";"All";35695.00;4.70;8.00;240.00;5270.00;204.00"Toyota";"4Runner SR5 V6";"SUV";"Asia";"Front";27710.00;4.00;6.00;245.00;4035.00;189.00"Toyota";"Highlander V6";"SUV";"Asia";"All";27930.00;3.30;6.00;230.00;3935.00;185.00"Toyota";"Land Cruiser";"SUV";"Asia";"All";54765.00;4.70;8.00;325.00;5390.00;193.00"Toyota";"RAV4";"SUV";"Asia";"All";20290.00;2.40;4.00;161.00;3119.00;167.00"Toyota";"Corolla CE 4dr";"Sedan";"Asia";"Front";14085.00;1.80;4.00;130.00;2502.00;178.00"Toyota";"Corolla S 4dr";"Sedan";"Asia";"Front";15030.00;1.80;4.00;130.00;2524.00;178.00"Toyota";"Corolla LE 4dr";"Sedan";"Asia";"Front";15295.00;1.80;4.00;130.00;2524.00;178.00"Toyota";"Echo 2dr manual";"Sedan";"Asia";"Front";10760.00;1.50;4.00;108.00;2035.00;163.00"Toyota";"Echo 2dr auto";"Sedan";"Asia";"Front";11560.00;1.50;4.00;108.00;2085.00;163.00"Toyota";"Echo 4dr";"Sedan";"Asia";"Front";11290.00;1.50;4.00;108.00;2055.00;163.00"Toyota";"Camry LE 4dr";"Sedan";"Asia";"Front";19560.00;2.40;4.00;157.00;3086.00;189.00"Toyota";"Camry LE V6 4dr";"Sedan";"Asia";"Front";22775.00;3.00;6.00;210.00;3296.00;189.00"Toyota";"Camry Solara SE 2dr";"Sedan";"Asia";"Front";19635.00;2.40;4.00;157.00;3175.00;193.00"Toyota";"Camry Solara SE V6 2dr";"Sedan";"Asia";"Front";21965.00;3.30;6.00;225.00;3417.00;193.00"Toyota";"Avalon XL 4dr";"Sedan";"Asia";"Front";26560.00;3.00;6.00;210.00;3417.00;192.00"Toyota";"Camry XLE V6 4dr";"Sedan";"Asia";"Front";25920.00;3.00;6.00;210.00;3362.00;189.00"Toyota";"Camry Solara SLE V6 2dr";"Sedan";"Asia";"Front";26510.00;3.30;6.00;225.00;3439.00;193.00"Toyota";"Avalon XLS 4dr";"Sedan";"Asia";"Front";30920.00;3.00;6.00;210.00;3439.00;192.00"Toyota";"Sienna CE";"Sedan";"Asia";"Front";23495.00;3.30;6.00;230.00;4120.00;200.00"Toyota";"Sienna XLE Limited";"Sedan";"Asia";"Front";28800.00;3.30;6.00;230.00;4165.00;200.00"Toyota";"Celica GT-S 2dr";"Sports";"Asia";"Front";22570.00;1.80;4.00;180.00;2500.00;171.00"Toyota";"MR2 Spyder convertible 2dr";"Sports";"Asia";"Rear";25130.00;1.80;4.00;138.00;2195.00;153.00"Toyota";"Tacoma";"Truck";"Asia";"Rear";12800.00;2.40;4.00;142.00;2750.00;191.00"Toyota";"Tundra Regular Cab V6";"Truck";"Asia";"Rear";16495.00;3.40;6.00;190.00;3925.00;218.00"Toyota";"Tundra Access Cab V6 SR5";"Truck";"Asia";"All";25935.00;3.40;6.00;190.00;4435.00;218.00"Toyota";"Matrix XR";"Wagon";"Asia";"Front";16695.00;1.80;4.00;130.00;2679.00;171.00"Volkswagen";"Touareg V6";"SUV";"Europe";"All";35515.00;3.20;6.00;220.00;5086.00;187.00"Volkswagen";"Golf GLS 4dr";"Sedan";"Europe";"Front";18715.00;2.00;4.00;115.00;2897.00;165.00"Volkswagen";"GTI 1.8T 2dr hatch";"Sedan";"Europe";"Front";19825.00;1.80;4.00;180.00;2934.00;168.00"Volkswagen";"Jetta GLS TDI 4dr";"Sedan";"Europe";"Front";21055.00;1.90;4.00;100.00;3003.00;172.00"Volkswagen";"New Beetle GLS 1.8T 2dr";"Sedan";"Europe";"Front";21055.00;1.80;4.00;150.00;2820.00;161.00"Volkswagen";"Jetta GLI VR6 4dr";"Sedan";"Europe";"Front";23785.00;2.80;6.00;200.00;3179.00;172.00"Volkswagen";"New Beetle GLS convertible 2dr";"Sedan";"Europe";"Front";23215.00;2.00;4.00;115.00;3082.00;161.00"Volkswagen";"Passat GLS 4dr";"Sedan";"Europe";"Front";23955.00;1.80;4.00;170.00;3241.00;185.00"Volkswagen";"Passat GLX V6 4MOTION 4dr";"Sedan";"Europe";"Front";33180.00;2.80;6.00;190.00;3721.00;185.00"Volkswagen";"Passat W8 4MOTION 4dr";"Sedan";"Europe";"Front";39235.00;4.00;8.00;270.00;3953.00;185.00"Volkswagen";"Phaeton 4dr";"Sedan";"Europe";"Front";65000.00;4.20;8.00;335.00;5194.00;204.00"Volkswagen";"Phaeton W12 4dr";"Sedan";"Europe";"Front";75000.00;6.00;12.00;420.00;5399.00;204.00"Volkswagen";"Jetta GL";"Wagon";"Europe";"Front";19005.00;2.00;4.00;115.00;3034.00;174.00"Volkswagen";"Passat GLS 1.8T";"Wagon";"Europe";"Front";24955.00;1.80;4.00;170.00;3338.00;184.00"Volkswagen";"Passat W8";"Wagon";"Europe";"Front";40235.00;4.00;8.00;270.00;4067.00;184.00"Volvo";"XC90 T6";"SUV";"Europe";"All";41250.00;2.90;6.00;268.00;4638.00;189.00"Volvo";"S40 4dr";"Sedan";"Europe";"Front";25135.00;1.90;4.00;170.00;2767.00;178.00"Volvo";"S60 2.5 4dr";"Sedan";"Europe";"All";31745.00;2.50;5.00;208.00;3903.00;180.00"Volvo";"S60 T5 4dr";"Sedan";"Europe";"Front";34845.00;2.30;5.00;247.00;3766.00;180.00"Volvo";"S60 R 4dr";"Sedan";"Europe";"All";37560.00;2.50;5.00;300.00;3571.00;181.00"Volvo";"S80 2.9 4dr";"Sedan";"Europe";"Front";37730.00;2.90;6.00;208.00;3576.00;190.00"Volvo";"S80 2.5T 4dr";"Sedan";"Europe";"All";37885.00;2.50;5.00;194.00;3691.00;190.00"Volvo";"C70 LPT convertible 2dr";"Sedan";"Europe";"Front";40565.00;2.40;5.00;197.00;3450.00;186.00"Volvo";"C70 HPT convertible 2dr";"Sedan";"Europe";"Front";42565.00;2.30;5.00;242.00;3450.00;186.00"Volvo";"S80 T6 4dr";"Sedan";"Europe";"Front";45210.00;2.90;6.00;268.00;3653.00;190.00"Volvo";"V40";"Wagon";"Europe";"Front";26135.00;1.90;4.00;170.00;2822.00;180.00"Volvo";"XC70";"Wagon";"Europe";"All";35145.00;2.50;5.00;208.00;3823.00;186.00
+Marca;Modelo;Tipo;Origen;Traccion;Precio;TamMotor;Cilindros;Caballos;Peso;Longitud
+Acura;MDX;SUV;Asia;All;36945;3.5;6;265;4451;189
+Acura;RSX Type S 2dr;Sedan;Asia;Front;23820;2;4;200;2778;172
+Acura;TSX 4dr;Sedan;Asia;Front;26990;2.4;4;200;3230;183
+Acura;TL 4dr;Sedan;Asia;Front;33195;3.2;6;270;3575;186
+Acura;3.5 RL 4dr;Sedan;Asia;Front;43755;3.5;6;225;3880;197
+Acura;3.5 RL w/Navigation 4dr;Sedan;Asia;Front;46100;3.5;6;225;3893;197
+Acura;NSX coupe 2dr manual S;Sports;Asia;Rear;89765;3.2;6;290;3153;174
+Audi;A4 1.8T 4dr;Sedan;Europe;Front;25940;1.8;4;170;3252;179
+Audi;A41.8T convertible 2dr;Sedan;Europe;Front;35940;1.8;4;170;3638;180
+Audi;A4 3.0 4dr;Sedan;Europe;Front;31840;3;6;220;3462;179
+Audi;A4 3.0 Quattro 4dr manual;Sedan;Europe;All;33430;3;6;220;3583;179
+Audi;A4 3.0 Quattro 4dr auto;Sedan;Europe;All;34480;3;6;220;3627;179
+Audi;A6 3.0 4dr;Sedan;Europe;Front;36640;3;6;220;3561;192
+Audi;A6 3.0 Quattro 4dr;Sedan;Europe;All;39640;3;6;220;3880;192
+Audi;A4 3.0 convertible 2dr;Sedan;Europe;Front;42490;3;6;220;3814;180
+Audi;A4 3.0 Quattro convertible 2dr;Sedan;Europe;All;44240;3;6;220;4013;180
+Audi;A6 2.7 Turbo Quattro 4dr;Sedan;Europe;All;42840;2.7;6;250;3836;192
+Audi;A6 4.2 Quattro 4dr;Sedan;Europe;All;49690;4.2;8;300;4024;193
+Audi;A8 L Quattro 4dr;Sedan;Europe;All;69190;4.2;8;330;4399;204
+Audi;S4 Quattro 4dr;Sedan;Europe;All;48040;4.2;8;340;3825;179
+Audi;RS 6 4dr;Sports;Europe;Front;84600;4.2;8;450;4024;191
+Audi;TT 1.8 convertible 2dr (coupe);Sports;Europe;Front;35940;1.8;4;180;3131;159
+Audi;TT 1.8 Quattro 2dr (convertible);Sports;Europe;All;37390;1.8;4;225;2921;159
+Audi;TT 3.2 coupe 2dr (convertible);Sports;Europe;All;40590;3.2;6;250;3351;159
+Audi;A6 3.0 Avant Quattro;Wagon;Europe;All;40840;3;6;220;4035;192
+Audi;S4 Avant Quattro;Wagon;Europe;All;49090;4.2;8;340;3936;179
+BMW;X3 3.0i;SUV;Europe;All;37000;3;6;225;4023;180
+BMW;X5 4.4i;SUV;Europe;All;52195;4.4;8;325;4824;184
+BMW;325i 4dr;Sedan;Europe;Rear;28495;2.5;6;184;3219;176
+BMW;325Ci 2dr;Sedan;Europe;Rear;30795;2.5;6;184;3197;177
+BMW;325Ci convertible 2dr;Sedan;Europe;Rear;37995;2.5;6;184;3560;177
+BMW;325xi 4dr;Sedan;Europe;All;30245;2.5;6;184;3461;176
+BMW;330i 4dr;Sedan;Europe;Rear;35495;3;6;225;3285;176
+BMW;330Ci 2dr;Sedan;Europe;Rear;36995;3;6;225;3285;176
+BMW;330xi 4dr;Sedan;Europe;All;37245;3;6;225;3483;176
+BMW;525i 4dr;Sedan;Europe;Rear;39995;2.5;6;184;3428;191
+BMW;330Ci convertible 2dr;Sedan;Europe;Rear;44295;3;6;225;3616;177
+BMW;530i 4dr;Sedan;Europe;Rear;44995;3;6;225;3472;191
+BMW;545iA 4dr;Sedan;Europe;Rear;54995;4.4;8;325;3814;191
+BMW;745i 4dr;Sedan;Europe;Rear;69195;4.4;8;325;4376;198
+BMW;745Li 4dr;Sedan;Europe;Rear;73195;4.4;8;325;4464;204
+BMW;M3 coupe 2dr;Sports;Europe;Rear;48195;3.2;6;333;3415;177
+BMW;M3 convertible 2dr;Sports;Europe;Rear;56595;3.2;6;333;3781;177
+BMW;Z4 convertible 2.5i 2dr;Sports;Europe;Rear;33895;2.5;6;184;2932;161
+BMW;Z4 convertible 3.0i 2dr;Sports;Europe;Rear;41045;3;6;225;2998;161
+BMW;325xi Sport;Wagon;Europe;All;32845;2.5;6;184;3594;176
+Buick;Rainier;SUV;USA;All;37895;4.2;6;275;4600;193
+Buick;Rendezvous CX;SUV;USA;Front;26545;3.4;6;185;4024;187
+Buick;Century Custom 4dr;Sedan;USA;Front;22180;3.1;6;175;3353;195
+Buick;LeSabre Custom 4dr;Sedan;USA;Front;26470;3.8;6;205;3567;200
+Buick;Regal LS 4dr;Sedan;USA;Front;24895;3.8;6;200;3461;196
+Buick;Regal GS 4dr;Sedan;USA;Front;28345;3.8;6;240;3536;196
+Buick;LeSabre Limited 4dr;Sedan;USA;Front;32245;3.8;6;205;3591;200
+Buick;Park Avenue 4dr;Sedan;USA;Front;35545;3.8;6;205;3778;207
+Buick;Park Avenue Ultra 4dr;Sedan;USA;Front;40720;3.8;6;240;3909;207
+Cadillac;Escalade;SUV;USA;Front;52795;5.3;8;295;5367;199
+Cadillac;SRX V8;SUV;USA;Front;46995;4.6;8;320;4302;195
+Cadillac;CTS VVT 4dr;Sedan;USA;Rear;30835;3.6;6;255;3694;190
+Cadillac;Deville 4dr;Sedan;USA;Front;45445;4.6;8;275;3984;207
+Cadillac;Deville DTS 4dr;Sedan;USA;Front;50595;4.6;8;300;4044;207
+Cadillac;Seville SLS 4dr;Sedan;USA;Front;47955;4.6;8;275;3992;201
+Cadillac;XLR convertible 2dr;Sports;USA;Rear;76200;4.6;8;320;3647;178
+Cadillac;Escalade EXT;Truck;USA;All;52975;6;8;345;5879;221
+Chevrolet;Suburban 1500 LT;SUV;USA;Front;42735;5.3;8;295;4947;219
+Chevrolet;Tahoe LT;SUV;USA;All;41465;5.3;8;295;5050;197
+Chevrolet;TrailBlazer LT;SUV;USA;Front;30295;4.2;6;275;4425;192
+Chevrolet;Tracker;SUV;USA;Front;20255;2.5;6;165;2866;163
+Chevrolet;Aveo 4dr;Sedan;USA;Front;11690;1.6;4;103;2370;167
+Chevrolet;Aveo LS 4dr hatch;Sedan;USA;Front;12585;1.6;4;103;2348;153
+Chevrolet;Cavalier 2dr;Sedan;USA;Front;14610;2.2;4;140;2617;183
+Chevrolet;Cavalier 4dr;Sedan;USA;Front;14810;2.2;4;140;2676;183
+Chevrolet;Cavalier LS 2dr;Sedan;USA;Front;16385;2.2;4;140;2617;183
+Chevrolet;Impala 4dr;Sedan;USA;Front;21900;3.4;6;180;3465;200
+Chevrolet;Malibu 4dr;Sedan;USA;Front;18995;2.2;4;145;3174;188
+Chevrolet;Malibu LS 4dr;Sedan;USA;Front;20370;3.5;6;200;3297;188
+Chevrolet;Monte Carlo LS 2dr;Sedan;USA;Front;21825;3.4;6;180;3340;198
+Chevrolet;Impala LS 4dr;Sedan;USA;Front;25000;3.8;6;200;3476;200
+Chevrolet;Impala SS 4dr;Sedan;USA;Front;27995;3.8;6;240;3606;200
+Chevrolet;Malibu LT 4dr;Sedan;USA;Front;23495;3.5;6;200;3315;188
+Chevrolet;Monte Carlo SS 2dr;Sedan;USA;Front;24225;3.8;6;200;3434;198
+Chevrolet;Astro;Sedan;USA;All;26395;4.3;6;190;4605;190
+Chevrolet;Venture LS;Sedan;USA;Front;27020;3.4;6;185;3699;187
+Chevrolet;Corvette 2dr;Sports;USA;Rear;44535;5.7;8;350;3246;180
+Chevrolet;Corvette convertible 2dr;Sports;USA;Rear;51535;5.7;;350;3248;180
+Chevrolet;Avalanche 1500;Truck;USA;Al;36100;5.3;8;295;5678;222
+Chevrolet;Colorado Z85;Truck;USA;All;18760;2.8;4;175;3623;192
+Chevrolet;Silverado 1500 Regular Cab;Truck;USA;Rear;20310;4.3;6;200;4142;206
+Chevrolet;Silverado SS;Truck;USA;All;40340;6;8;300;4804;238
+Chevrolet;SSR;Truck;USA;Rear;41995;5.3;8;300;4760;191
+Chevrolet;Malibu Maxx LS;Wagon;USA;Front;22225;3.5;6;200;3458;188
+Chrysler;PT Cruiser 4dr;Sedan;USA;Front;17985;2.4;4;150;3101;169
+Chrysler;PT Cruiser Limited 4dr;Sedan;USA;Front;22000;2.4;4;150;3105;169
+Chrysler;Sebring 4dr;Sedan;USA;Front;19090;2.4;4;150;3173;191
+Chrysler;Sebring Touring 4dr;Sedan;USA;Front;21840;2.7;6;200;3222;191
+Chrysler;300M 4dr;Sedan;USA;Front;29865;3.5;6;250;3581;198
+Chrysler;Concorde LX 4dr;Sedan;USA;Front;24130;2.7;6;200;3479;208
+Chrysler;Concorde LXi 4dr;Sedan;USA;Front;26860;3.5;6;232;3548;208
+Chrysler;PT Cruiser GT 4dr;Sedan;USA;Front;25955;2.4;4;220;3217;169
+Chrysler;Sebring convertible 2dr;Sedan;USA;Front;25215;2.4;4;150;3357;194
+Chrysler;300M Special Edition 4dr;Sedan;USA;Front;33295;3.5;6;255;3650;198
+Chrysler;Sebring Limited convertible 2dr;Sedan;USA;Front;30950;2.7;6;200;3448;194
+Chrysler;Town and Country LX;Sedan;USA;Front;27490;3.3;6;180;4068;201
+Chrysler;Town and Country Limited;Sedan;USA;Front;38380;3.8;6;215;4331;201
+Chrysler;Crossfire 2dr;Sports;USA;Rear;34495;3.2;6;215;3060;160
+Chrysler;Pacifica;Wagon;USA;Rear;31230;3.5;6;250;4675;199
+Dodge;Durango SLT;SUV;USA;All;32235;4.7;8;230;4987;201
+Dodge;Neon SE 4dr;Sedan;USA;Front;13670;2;4;132;2581;174
+Dodge;Neon SXT 4dr;Sedan;USA;Front;15040;2;4;132;2626;174
+Dodge;Intrepid SE 4dr;Sedan;USA;Front;22035;2.7;6;200;3469;204
+Dodge;Stratus SXT 4dr;Sedan;USA;Front;18820;2.4;4;150;3182;191
+Dodge;Stratus SE 4dr;Sedan;USA;Front;20220;2.4;4;150;3175;191
+Dodge;Intrepid ES 4dr;Sedan;USA;Front;24885;3.5;6;232;3487;204
+Dodge;Caravan SE;Sedan;USA;Front;21795;2.4;4;150;3862;189
+Dodge;Grand Caravan SXT;Sedan;USA;All;32660;3.8;6;215;4440;201
+Dodge;Viper SRT-10 convertible 2dr;Sports;USA;Rear;81795;8.3;10;500;3410;176
+Dodge;Dakota Regular Cab;Truck;USA;Rear;17630;3.7;6;210;3714;193
+Dodge;Dakota Club Cab;Truck;USA;Rear;20300;3.7;6;210;3829;219
+Dodge;Ram 1500 Regular Cab ST;Truck;USA;Rear;20215;3.7;6;215;4542;208
+Ford;Excursion 6.8 XLT;SUV;USA;All;41475;6.8;10;310;7190;227
+Ford;Expedition 4.6 XLT;SUV;USA;Front;34560;4.6;8;232;5000;206
+Ford;Explorer XLT V6;SUV;USA;All;29670;4;6;210;4463;190
+Ford;Escape XLS;SUV;USA;All;22515;3;6;201;3346;173
+Ford;Focus ZX3 2dr hatch;Sedan;USA;Front;13270;2;4;130;2612;168
+Ford;Focus LX 4dr;Sedan;USA;Front;13730;2;4;110;2606;168
+Ford;Focus SE 4dr;Sedan;USA;Front;15460;2;4;130;2606;168
+Ford;Focus ZX5 5dr;Sedan;USA;Front;15580;2;4;130;2691;168
+Ford;Focus SVT 2dr;Sedan;USA;Front;19135;2;4;170;2750;168
+Ford;Taurus LX 4dr;Sedan;USA;Front;20320;3;6;155;3306;198
+Ford;Taurus SES Duratec 4dr;Sedan;USA;Front;22735;3;6;201;3313;198
+Ford;Crown Victoria 4dr;Sedan;USA;Rear;24345;4.6;8;224;4057;212
+Ford;Crown Victoria LX 4dr;Sedan;USA;Rear;27370;4.6;8;224;4057;212
+Ford;Crown Victoria LX Sport 4dr;Sedan;USA;Rear;30315;4.6;8;239;4057;212
+Ford;Freestar SE;Sedan;USA;Front;26930;3.9;6;193;4275;201
+Ford;Mustang 2dr (convertible);Sports;USA;Rear;18345;3.8;6;193;3290;183
+Ford;Mustang GT Premium convertible 2dr;Sports;USA;Rear;29380;4.6;8;260;3347;183
+Ford;Thunderbird Deluxe convert w/hardtop 2d;Sports;USA;Front;37530;3.9;8;280;3780;186
+Ford;F-150 Regular Cab XL;Truck;USA;Rear;22010;4.6;8;231;4788;211
+Ford;F-150 Supercab Lariat;Truck;USA;Al;33540;5.4;8;300;5464;218
+Ford;Ranger 2.3 XL Regular Cab;Truck;USA;Rear;14385;2.3;4;143;3028;188
+Ford;Focus ZTW;Wagon;USA;Front;17475;2;4;130;2702;178
+Ford;Taurus SE;Wagon;USA;Front;22290;3;6;155;3497;198
+GMC;Envoy XUV SLE;SUV;USA;Front;31890;4.2;6;275;4945;208
+GMC;Yukon 1500 SLE;SUV;USA;Front;35725;4.8;8;285;5042;199
+GMC;Yukon XL 2500 SLT;SUV;USA;All;46265;6;8;325;6133;219
+GMC;Safari SLE;Sedan;USA;Rear;25640;4.3;6;190;4309;190
+GMC;Canyon Z85 SL Regular Cab;Truck;USA;Rear;16530;2.8;4;175;3351;192
+GMC;Sierra Extended Cab 1500;Truck;USA;Rear;25717;4.8;8;285;4548;230
+GMC;Sierra HD 2500;Truck;USA;All;29322;6;8;300;5440;222
+GMC;Sonoma Crew Cab;Truck;USA;All;25395;4.3;6;190;4083;208
+Honda;Civic Hybrid 4dr manual (gas/electric);Hybrid;Asia;Front;20140;1.4;4;93;2732;175
+Honda;Insight 2dr (gas/electric);Hybrid;Asia;Front;19110;2;3;73;1850;155
+Honda;Pilot LX;SUV;Asia;All;27560;3.5;6;240;4387;188
+Honda;CR-V LX;SUV;Asia;All;19860;2.4;4;160;3258;179
+Honda;Element LX;SUV;Asia;All;18690;2.4;4;160;3468;167
+Honda;Civic DX 2dr;Sedan;Asia;Front;13270;1.7;4;115;2432;175
+Honda;Civic HX 2dr;Sedan;Asia;Front;14170;1.7;4;117;2500;175
+Honda;Civic LX 4dr;Sedan;Asia;Front;15850;1.7;4;115;2513;175
+Honda;Accord LX 2dr;Sedan;Asia;Front;19860;2.4;4;160;2994;188
+Honda;Accord EX 2dr;Sedan;Asia;Front;22260;2.4;4;160;3047;188
+Honda;Civic EX 4dr;Sedan;Asia;Front;17750;1.7;4;127;2601;175
+Honda;Civic Si 2dr hatch;Sedan;Asia;Front;19490;2;4;160;2782;166
+Honda;Accord LX V6 4dr;Sedan;Asia;Front;23760;3;6;240;3349;190
+Honda;Accord EX V6 2dr;Sedan;Asia;Front;26960;3;6;240;3294;188
+Honda;Odyssey LX;Sedan;Asia;Front;24950;3.5;6;240;4310;201
+Honda;Odyssey EX;Sedan;Asia;Front;27450;3.5;6;240;4365;201
+Honda;S2000 convertible 2dr;Sports;Asia;Rear;33260;2.2;4;240;2835;162
+Hummer;H2;SUV;USA;All;49995;6;8;316;6400;190
+Hyundai;Santa Fe GLS;SUV;Asia;Front;21589;2.7;6;173;3549;177
+Hyundai;Accent 2dr hatch;Sedan;Asia;Front;10539;1.6;4;103;2255;167
+Hyundai;Accent GL 4dr;Sedan;Asia;Front;11839;1.6;4;103;2290;167
+Hyundai;Accent GT 2dr hatch;Sedan;Asia;Front;11939;1.6;4;103;2339;167
+Hyundai;Elantra GLS 4dr;Sedan;Asia;Front;13839;2;4;138;2635;178
+Hyundai;Elantra GT 4dr;Sedan;Asia;Front;15389;2;4;138;2635;178
+Hyundai;Elantra GT 4dr hatch;Sedan;Asia;Front;15389;2;4;138;2698;178
+Hyundai;Sonata GLS 4dr;Sedan;Asia;Front;19339;2.7;6;170;3217;187
+Hyundai;Sonata LX 4dr;Sedan;Asia;Front;20339;2.7;6;170;3217;187
+Hyundai;XG350 4dr;Sedan;Asia;Front;24589;3.5;6;194;3651;192
+Hyundai;XG350 L 4dr;Sedan;Asia;Front;26189;3.5;6;194;3651;192
+Hyundai;Tiburon GT V6 2dr;Sports;Asia;Front;18739;2.7;6;172;3023;173
+Infiniti;G35 4dr;Sedan;Asia;Rear;28495;3.5;6;260;3336;187
+Infiniti;G35 Sport Coupe 2dr;Sedan;Asia;Rear;29795;3.5;6;280;3416;182
+Infiniti;G35 4dr;Sedan;Asia;All;32445;3.5;6;260;3677;187
+Infiniti;I35 4dr;Sedan;Asia;Front;31145;3.5;6;255;3306;194
+Infiniti;M45 4dr;Sedan;Asia;Rear;42845;4.5;8;340;3851;197
+Infiniti;Q45 Luxury 4dr;Sedan;Asia;Rear;52545;4.5;8;340;3977;200
+Infiniti;FX35;Wagon;Asia;Rear;34895;3.5;6;280;4056;189
+Infiniti;FX45;Wagon;Asia;All;36395;4.5;8;315;4309;189
+Isuzu;Ascender S;SUV;Asia;All;31849;4.2;6;275;4967;208
+Isuzu;Rodeo S;SUV;Asia;Front;20449;3.2;6;193;3836;178
+Jaguar;X-Type 2.5 4dr;Sedan;Europe;All;29995;2.5;6;192;3428;184
+Jaguar;X-Type 3.0 4dr;Sedan;Europe;All;33995;3;6;227;3516;184
+Jaguar;S-Type 3.0 4dr;Sedan;Europe;Rear;43895;3;6;235;3777;192
+Jaguar;S-Type 4.2 4dr;Sedan;Europe;Rear;49995;4.2;8;294;3874;192
+Jaguar;S-Type R 4dr;Sedan;Europe;Rear;63120;4.2;8;390;4046;192
+Jaguar;Vanden Plas 4dr;Sedan;Europe;Rear;68995;4.2;8;294;3803;200
+Jaguar;XJ8 4dr;Sedan;Europe;Rear;59995;4.2;8;294;3803;200
+Jaguar;XJR 4dr;Sedan;Europe;Rear;74995;4.2;8;390;3948;200
+Jaguar;XK8 coupe 2dr;Sports;Europe;Rear;69995;4.2;8;294;3779;187
+Jaguar;XK8 convertible 2dr;Sports;Europe;Rear;74995;4.2;8;294;3980;187
+Jaguar;XKR coupe 2dr;Sports;Europe;Rear;81995;4.2;8;390;3865;187
+Jaguar;XKR convertible 2dr;Sports;Europe;Rear;86995;4.2;8;390;4042;187
+Jeep;Grand Cherokee Laredo;SUV;USA;Front;27905;4;6;195;3790;181
+Jeep;Liberty Sport;SUV;USA;All;20130;2.4;4;150;3826;174
+Jeep;Wrangler Sahara convertible 2dr;SUV;USA;All;25520;4;6;190;3575;150
+Kia;Sorento LX;SUV;Asia;Front;19635;3.5;6;192;4112;180
+Kia;Optima LX 4dr;Sedan;Asia;Front;16040;2.4;4;138;3281;186
+Kia;Rio 4dr manual;Sedan;Asia;Front;10280;1.6;4;104;2403;167
+Kia;Rio 4dr auto;Sedan;Asia;Front;11155;1.6;4;104;2458;167
+Kia;Spectra 4dr;Sedan;Asia;Front;12360;1.8;4;124;2661;178
+Kia;Spectra GS 4dr hatch;Sedan;Asia;Front;13580;1.8;4;124;2686;178
+Kia;Spectra GSX 4dr hatch;Sedan;Asia;Front;14630;1.8;4;124;2697;178
+Kia;Optima LX V6 4dr;Sedan;Asia;Front;18435;2.7;6;170;3279;186
+Kia;Amanti 4dr;Sedan;Asia;Front;26000;3.5;6;195;4021;196
+Kia;Sedona LX;Sedan;Asia;Front;20615;3.5;6;195;4802;194
+Kia;Rio Cinco;Wagon;Asia;Front;11905;1.6;4;104;2447;167
+Land Rover;Range Rover HSE;SUV;Europe;All;72250;4.4;8;282;5379;195
+Land Rover;Discovery SE;SUV;Europe;All;39250;4.6;8;217;4576;185
+Land Rover;Freelander SE;SUV;Europe;All;25995;2.5;6;174;3577;175
+Lexus;GX 470;SUV;Asia;All;45700;4.7;8;235;4740;188
+Lexus;LX 470;SUV;Asia;All;64800;4.7;8;235;5590;193
+Lexus;RX 330;SUV;Asia;All;39195;3.3;6;230;4065;186
+Lexus;ES 330 4dr;Sedan;Asia;Front;32350;3.3;6;225;3460;191
+Lexus;IS 300 4dr manual;Sedan;Asia;Rear;31045;3;6;215;3255;177
+Lexus;IS 300 4dr auto;Sedan;Asia;Rear;32415;3;6;215;3285;177
+Lexus;GS 300 4dr;Sedan;Asia;Rear;41010;3;6;220;3649;189
+Lexus;GS 430 4dr;Sedan;Asia;Rear;48450;4.3;8;300;3715;189
+Lexus;LS 430 4dr;Sedan;Asia;Rear;55750;4.3;8;290;3990;197
+Lexus;SC 430 convertible 2dr;Sports;Asia;Rear;63200;4.3;8;300;3840;178
+Lexus;IS 300 SportCross;Wagon;Asia;Rear;32455;3;6;215;3410;177
+Lincoln;Navigator Luxury;SUV;USA;All;52775;5.4;8;300;5969;206
+Lincoln;Aviator Ultimate;SUV;USA;Front;42915;4.6;8;302;4834;193
+Lincoln;LS V6 Luxury 4dr;Sedan;USA;Rear;32495;3;6;232;3681;194
+Lincoln;LS V6 Premium 4dr;Sedan;USA;Rear;36895;3;6;232;3681;194
+Lincoln;LS V8 Sport 4dr;Sedan;USA;Rear;40095;3.9;8;280;3768;194
+Lincoln;LS V8 Ultimate 4dr;Sedan;USA;Rear;43495;3.9;8;280;3768;194
+Lincoln;Town Car Signature 4dr;Sedan;USA;Rear;41815;4.6;8;239;4369;215
+Lincoln;Town Car Ultimate 4dr;Sedan;USA;Rear;44925;4.6;8;239;4369;215
+Lincoln;Town Car Ultimate L 4dr;Sedan;USA;Rear;50470;4.6;8;239;4474;221
+MINI;Cooper;Sedan;Europe;Front;16999;1.6;4;115;2524;143
+MINI;Cooper S;Sedan;Europe;Front;19999;1.6;4;163;2678;144
+Mazda;Tribute DX 2.0;SUV;Asia;All;21087;2;4;130;3091;173
+Mazda;Mazda3 i 4dr;Sedan;Asia;Front;15500;2;4;148;2696;178
+Mazda;Mazda3 s 4dr;Sedan;Asia;Front;17200;2.3;4;160;2762;179
+Mazda;Mazda6 i 4dr;Sedan;Asia;Front;19270;2.3;4;160;3042;187
+Mazda;MPV ES;Sedan;Asia;Front;28750;3;6;200;3812;188
+Mazda;MX-5 Miata convertible 2dr;Sports;Asia;Rear;22388;1.8;4;142;2387;156
+Mazda;MX-5 Miata LS convertible 2dr;Sports;Asia;Rear;25193;1.8;4;142;2387;156
+Mazda;RX-8 4dr automatic;Sports;Asia;Rear;25700;1.3;;197;3053;174
+Mazda;RX-8 4dr manual;Sports;Asia;Rear;27200;1.3;;238;3029;174
+Mazda;B2300 SX Regular Cab;Truck;Asia;Rear;14840;2.3;4;143;2960;188
+Mazda;B4000 SE Cab Plus;Truck;Asia;All;22350;4;6;207;3571;203
+Mercedes-Benz;G500;SUV;Europe;All;76870;5;8;292;5423;186
+Mercedes-Benz;ML500;SUV;Europe;All;46470;5;8;288;4874;183
+Mercedes-Benz;C230 Sport 2dr;Sedan;Europe;Rear;26060;1.8;4;189;3250;178
+Mercedes-Benz;C320 Sport 2dr;Sedan;Europe;Rear;28370;3.2;6;215;3430;178
+Mercedes-Benz;C240 4dr;Sedan;Europe;Rear;32280;2.6;6;168;3360;178
+Mercedes-Benz;C240 4dr;Sedan;Europe;All;33480;2.6;6;168;3360;178
+Mercedes-Benz;C320 Sport 4dr;Sedan;Europe;Rear;35920;3.2;6;215;3430;178
+Mercedes-Benz;C320 4dr;Sedan;Europe;Rear;37630;3.2;6;215;3450;178
+Mercedes-Benz;C320 4dr;Sedan;Europe;All;38830;3.2;6;215;3450;178
+Mercedes-Benz;C32 AMG 4dr;Sedan;Europe;Rear;52120;3.2;6;349;3540;178
+Mercedes-Benz;CL500 2dr;Sedan;Europe;Rear;94820;5;8;302;4085;196
+Mercedes-Benz;CL600 2dr;Sedan;Europe;Rear;128420;5.5;12;493;4473;196
+Mercedes-Benz;CLK320 coupe 2dr (convertible);Sedan;Europe;Rear;45707;3.2;6;215;3770;183
+Mercedes-Benz;CLK500 coupe 2dr (convertible);Sedan;Europe;Rear;52800;5;8;302;3585;183
+Mercedes-Benz;E320 4dr;Sedan;Europe;Rear;48170;3.2;6;221;3635;190
+Mercedes-Benz;E500 4dr;Sedan;Europe;Rear;57270;5;8;302;3815;190
+Mercedes-Benz;S430 4dr;Sedan;Europe;Rear;74320;4.3;8;275;4160;203
+Mercedes-Benz;S500 4dr;Sedan;Europe;All;86970;5;8;302;4390;203
+Mercedes-Benz;SL500 convertible 2dr;Sports;Europe;Rear;90520;5;8;302;4065;179
+Mercedes-Benz;SL55 AMG 2dr;Sports;Europe;Rear;121770;5.5;8;493;4235;179
+Mercedes-Benz;SL600 convertible 2dr;Sports;Europe;Rear;126670;5.5;12;493;4429;179
+Mercedes-Benz;SLK230 convertible 2dr;Sports;Europe;Rear;40320;2.3;4;192;3055;158
+Mercedes-Benz;SLK32 AMG 2dr;Sports;Europe;Rear;56170;3.2;6;349;3220;158
+Mercedes-Benz;C240;Wagon;Europe;Rear;33780;2.6;6;168;3470;179
+Mercedes-Benz;E320;Wagon;Europe;Rear;50670;3.2;6;221;3966;190
+Mercedes-Benz;E500;Wagon;Europe;All;60670;5;8;302;4230;190
+Mercury;Mountaineer;SUV;USA;Front;29995;4;6;210;4374;190
+Mercury;Sable GS 4dr;Sedan;USA;Front;21595;3;6;155;3308;200
+Mercury;Grand Marquis GS 4dr;Sedan;USA;Rear;24695;4.6;8;224;4052;212
+Mercury;Grand Marquis LS Premium 4dr;Sedan;USA;Rear;29595;4.6;8;224;4052;212
+Mercury;Sable LS Premium 4dr;Sedan;USA;Front;23895;3;6;201;3315;200
+Mercury;Grand Marquis LS Ultimate 4dr;Sedan;USA;Rear;30895;4.6;8;224;4052;212
+Mercury;Marauder 4dr;Sedan;USA;Rear;34495;4.6;8;302;4195;212
+Mercury;Monterey Luxury;Sedan;USA;Front;33995;4.2;6;201;4340;202
+Mercury;Sable GS;Wagon;USA;Front;22595;3;6;155;3488;198
+Mitsubishi;Endeavor XLS;SUV;Asia;All;30492;3.8;6;215;4134;190
+Mitsubishi;Montero XLS;SUV;Asia;All;33112;3.8;6;215;4718;190
+Mitsubishi;Outlander LS;SUV;Asia;Front;18892;2.4;4;160;3240;179
+Mitsubishi;Lancer ES 4dr;Sedan;Asia;Front;14622;2;4;120;2656;181
+Mitsubishi;Lancer LS 4dr;Sedan;Asia;Front;16722;2;4;120;2795;181
+Mitsubishi;Galant ES 2.4L 4dr;Sedan;Asia;Front;19312;2.4;4;160;3351;191
+Mitsubishi;Lancer OZ Rally 4dr auto;Sedan;Asia;Front;17232;2;4;120;2744;181
+Mitsubishi;Diamante LS 4dr;Sedan;Asia;Front;29282;3.5;6;205;3549;194
+Mitsubishi;Galant GTS 4dr;Sedan;Asia;Front;25700;3.8;6;230;3649;191
+Mitsubishi;Eclipse GTS 2dr;Sports;Asia;Front;25092;3;6;210;3241;177
+Mitsubishi;Eclipse Spyder GT convertible 2dr;Sports;Asia;Front;26992;3;6;210;3296;177
+Mitsubishi;Lancer Evolution 4dr;Sports;Asia;Front;29562;2;4;271;3263;179
+Mitsubishi;Lancer Sportback LS;Wagon;Asia;Front;17495;2.4;4;160;3020;181
+Nissan;Pathfinder Armada SE;SUV;Asia;Front;33840;5.6;8;305;5013;207
+Nissan;Pathfinder SE;SUV;Asia;Front;27339;3.5;6;240;3871;183
+Nissan;Xterra XE V6;SUV;Asia;Front;20939;3.3;6;180;3760;178
+Nissan;Sentra 1.8 4dr;Sedan;Asia;Front;12740;1.8;4;126;2513;178
+Nissan;Sentra 1.8 S 4dr;Sedan;Asia;Front;14740;1.8;4;126;2581;178
+Nissan;Altima S 4dr;Sedan;Asia;Front;19240;2.5;4;175;3039;192
+Nissan;Sentra SE-R 4dr;Sedan;Asia;Front;17640;2.5;4;165;2761;178
+Nissan;Altima SE 4dr;Sedan;Asia;Front;23290;3.5;6;245;3197;192
+Nissan;Maxima SE 4dr;Sedan;Asia;Front;27490;3.5;6;265;3473;194
+Nissan;Maxima SL 4dr;Sedan;Asia;Front;29440;3.5;6;265;3476;194
+Nissan;Quest S;Sedan;Asia;Front;24780;3.5;6;240;4012;204
+Nissan;Quest SE;Sedan;Asia;Front;32780;3.5;6;240;4175;204
+Nissan;350Z coupe 2dr;Sports;Asia;Rear;26910;3.5;6;287;3188;169
+Nissan;350Z Enthusiast convertible 2dr;Sports;Asia;Rear;34390;3.5;6;287;3428;169
+Nissan;Frontier King Cab XE V6;Truck;Asia;All;19479;3.3;6;180;3932;191
+Nissan;Titan King Cab XE;Truck;Asia;All;26650;5.6;8;305;5287;224
+Nissan;Murano SL;Wagon;Asia;Rear;28739;3.5;6;245;3801;188
+Oldsmobile;Alero GX 2dr;Sedan;USA;Front;18825;2.2;4;140;2946;187
+Oldsmobile;Alero GLS 2dr;Sedan;USA;Front;23675;3.4;6;170;3085;187
+Oldsmobile;Silhouette GL;Sedan;USA;Front;28790;3.4;6;185;3948;201
+Pontiac;Aztekt;SUV;USA;Front;21595;3.4;6;185;3779;182
+Pontiac;Sunfire 1SA 2dr;Sedan;USA;Front;15495;2.2;4;140;2771;182
+Pontiac;Grand Am GT 2dr;Sedan;USA;Front;22450;3.4;6;175;3118;186
+Pontiac;Grand Prix GT1 4dr;Sedan;USA;Front;22395;3.8;6;200;3477;198
+Pontiac;Sunfire 1SC 2dr;Sedan;USA;Front;17735;2.2;4;140;2771;182
+Pontiac;Grand Prix GT2 4dr;Sedan;USA;Front;24295;3.8;6;200;3484;198
+Pontiac;Bonneville GXP 4dr;Sedan;USA;Front;35995;4.6;8;275;3790;203
+Pontiac;Montana;Sedan;USA;Front;23845;3.4;6;185;3803;187
+Pontiac;Montana EWB;Sedan;USA;All;31370;3.4;6;185;4431;201
+Pontiac;GTO 2dr;Sports;USA;Rear;33500;5.7;8;340;3725;190
+Pontiac;Vibe;Wagon;USA;Rear;17045;1.8;4;130;2701;172
+Porsche;Cayenne S;SUV;Europe;All;56665;4.5;8;340;4950;188
+Porsche;911 Carrera convertible 2dr (coupe);Sports;Europe;Rear;79165;3.6;6;315;3135;175
+Porsche;911 Carrera 4S coupe 2dr (convert);Sports;Europe;All;84165;3.6;6;315;3240;175
+Porsche;911 Targa coupe 2dr;Sports;Europe;Rear;76765;3.6;6;315;3119;175
+Porsche;911 GT2 2dr;Sports;Europe;Rear;192465;3.6;6;477;3131;175
+Porsche;Boxster convertible 2dr;Sports;Europe;Rear;43365;2.7;6;228;2811;170
+Porsche;Boxster S convertible 2dr;Sports;Europe;Rear;52365;3.2;6;258;2911;170
+Saab;9-3 Arc Sport 4dr;Sedan;Europe;Front;30860;2;4;210;3175;183
+Saab;9-3 Aero 4dr;Sedan;Europe;Front;33360;2;4;210;3175;183
+Saab;9-5 Arc 4dr;Sedan;Europe;Front;35105;2.3;4;220;3470;190
+Saab;9-5 Aero 4dr;Sedan;Europe;Front;39465;2.3;4;250;3470;190
+Saab;9-3 Arc convertible 2dr;Sedan;Europe;Front;40670;2;4;210;3480;182
+Saab;9-3 Aero convertible 2dr;Sedan;Europe;Front;43175;2;4;210;3700;182
+Saab;9-5 Aero;Wagon;Europe;Front;40845;2.3;4;250;3620;190
+Saturn;VUE;SUV;USA;All;20585;2.2;4;143;3381;181
+Saturn;Ion1 4dr;Sedan;USA;Front;10995;2.2;4;140;2692;185
+Saturn;lon2 4dr;Sedan;USA;Front;14300;2.2;4;140;2692;185
+Saturn;lon3 4dr;Sedan;USA;Front;15825;2.2;4;140;2692;185
+Saturn;lon2 quad coupe 2dr;Sedan;USA;Front;14850;2.2;4;140;2751;185
+Saturn;lon3 quad coupe 2dr;Sedan;USA;Front;16350;2.2;4;140;2751;185
+Saturn;L300-2 4dr;Sedan;USA;Front;21410;3;6;182;3197;190
+Saturn;L300 2;Wagon;USA;Front;23560;2.2;4;140;3109;190
+Scion;xA 4dr hatch;Sedan;Asia;Front;12965;1.5;4;108;2340;154
+Scion;xB;Wagon;Asia;Front;14165;1.5;4;108;2425;155
+Subaru;Impreza 2.5 RS 4dr;Sedan;Asia;All;19945;2.5;4;165;2965;174
+Subaru;Legacy L 4dr;Sedan;Asia;All;20445;2.5;4;165;3285;184
+Subaru;Legacy GT 4dr;Sedan;Asia;All;25645;2.5;4;165;3395;184
+Subaru;Outback Limited Sedan 4dr;Sedan;Asia;All;27145;2.5;4;165;3495;184
+Subaru;Outback H6 4dr;Sedan;Asia;All;29345;3;6;212;3610;184
+Subaru;Outback H-6 VDC 4dr;Sedan;Asia;All;31545;3;6;212;3630;184
+Subaru;Impreza WRX 4dr;Sports;Asia;All;25045;2;4;227;3085;174
+Subaru;Impreza WRX STi 4dr;Sports;Asia;All;31545;2.5;4;300;3263;174
+Subaru;Baja;Truck;Asia;All;24520;2.5;4;165;3485;193
+Subaru;Forester X;Wagon;Asia;All;21445;2.5;4;165;3090;175
+Subaru;Outback;Wagon;Asia;All;23895;2.5;4;165;3430;187
+Suzuki;XL-7 EX;SUV;Asia;Front;23699;2.7;6;185;3682;187
+Suzuki;Vitara LX;SUV;Asia;All;17163;2.5;6;165;3020;163
+Suzuki;Aeno S 4dr;Sedan;Asia;Front;12884;2.3;4;155;2676;171
+Suzuki;Aerio LX 4dr;Sedan;Asia;Front;14500;2.3;4;155;2676;171
+Suzuki;Forenza S 4dr;Sedan;Asia;Front;12269;2;4;119;2701;177
+Suzuki;Forenza EX 4dr;Sedan;Asia;Front;15568;2;4;119;2756;177
+Suzuki;Verona LX 4dr;Sedan;Asia;Front;17262;2.5;6;155;3380;188
+Suzuki;Aerio SX;Wagon;Asia;All;16497;2.3;4;155;2932;167
+Toyota;Prius 4dr (gas/electric);Hybrid;Asia;Front;20510;1.5;4;110;2890;175
+Toyota;Sequoia SR5;SUV;Asia;All;35695;4.7;8;240;5270;204
+Toyota;4Runner SR5 V6;SUV;Asia;Front;27710;4;6;245;4035;189
+Toyota;Highlander V6;SUV;Asia;All;27930;3.3;6;230;3935;185
+Toyota;Land Cruiser;SUV;Asia;All;54765;4.7;8;325;5390;193
+Toyota;RAV4;SUV;Asia;All;20290;2.4;4;161;3119;167
+Toyota;Corolla CE 4dr;Sedan;Asia;Front;14085;1.8;4;130;2502;178
+Toyota;Corolla S 4dr;Sedan;Asia;Front;15030;1.8;4;130;2524;178
+Toyota;Corolla LE 4dr;Sedan;Asia;Front;15295;1.8;4;130;2524;178
+Toyota;Echo 2dr manual;Sedan;Asia;Front;10760;1.5;4;108;2035;163
+Toyota;Echo 2dr auto;Sedan;Asia;Front;11560;1.5;4;108;2085;163
+Toyota;Echo 4dr;Sedan;Asia;Front;11290;1.5;4;108;2055;163
+Toyota;Camry LE 4dr;Sedan;Asia;Front;19560;2.4;4;157;3086;189
+Toyota;Camry LE V6 4dr;Sedan;Asia;Front;22775;3;6;210;3296;189
+Toyota;Camry Solara SE 2dr;Sedan;Asia;Front;19635;2.4;4;157;3175;193
+Toyota;Camry Solara SE V6 2dr;Sedan;Asia;Front;21965;3.3;6;225;3417;193
+Toyota;Avalon XL 4dr;Sedan;Asia;Front;26560;3;6;210;3417;192
+Toyota;Camry XLE V6 4dr;Sedan;Asia;Front;25920;3;6;210;3362;189
+Toyota;Camry Solara SLE V6 2dr;Sedan;Asia;Front;26510;3.3;6;225;3439;193
+Toyota;Avalon XLS 4dr;Sedan;Asia;Front;30920;3;6;210;3439;192
+Toyota;Sienna CE;Sedan;Asia;Front;23495;3.3;6;230;4120;200
+Toyota;Sienna XLE Limited;Sedan;Asia;Front;28800;3.3;6;230;4165;200
+Toyota;Celica GT-S 2dr;Sports;Asia;Front;22570;1.8;4;180;2500;171
+Toyota;MR2 Spyder convertible 2dr;Sports;Asia;Rear;25130;1.8;4;138;2195;153
+Toyota;Tacoma;Truck;Asia;Rear;12800;2.4;4;142;2750;191
+Toyota;Tundra Regular Cab V6;Truck;Asia;Rear;16495;3.4;6;190;3925;218
+Toyota;Tundra Access Cab V6 SR5;Truck;Asia;All;25935;3.4;6;190;4435;218
+Toyota;Matrix XR;Wagon;Asia;Front;16695;1.8;4;130;2679;171
+Volkswagen;Touareg V6;SUV;Europe;All;35515;3.2;6;220;5086;187
+Volkswagen;Golf GLS 4dr;Sedan;Europe;Front;18715;2;4;115;2897;165
+Volkswagen;GTI 1.8T 2dr hatch;Sedan;Europe;Front;19825;1.8;4;180;2934;168
+Volkswagen;Jetta GLS TDI 4dr;Sedan;Europe;Front;21055;1.9;4;100;3003;172
+Volkswagen;New Beetle GLS 1.8T 2dr;Sedan;Europe;Front;21055;1.8;4;150;2820;161
+Volkswagen;Jetta GLI VR6 4dr;Sedan;Europe;Front;23785;2.8;6;200;3179;172
+Volkswagen;New Beetle GLS convertible 2dr;Sedan;Europe;Front;23215;2;4;115;3082;161
+Volkswagen;Passat GLS 4dr;Sedan;Europe;Front;23955;1.8;4;170;3241;185
+Volkswagen;Passat GLX V6 4MOTION 4dr;Sedan;Europe;Front;33180;2.8;6;190;3721;185
+Volkswagen;Passat W8 4MOTION 4dr;Sedan;Europe;Front;39235;4;8;270;3953;185
+Volkswagen;Phaeton 4dr;Sedan;Europe;Front;65000;4.2;8;335;5194;204
+Volkswagen;Phaeton W12 4dr;Sedan;Europe;Front;75000;6;12;420;5399;204
+Volkswagen;Jetta GL;Wagon;Europe;Front;19005;2;4;115;3034;174
+Volkswagen;Passat GLS 1.8T;Wagon;Europe;Front;24955;1.8;4;170;3338;184
+Volkswagen;Passat W8;Wagon;Europe;Front;40235;4;8;270;4067;184
+Volvo;XC90 T6;SUV;Europe;All;41250;2.9;6;268;4638;189
+Volvo;S40 4dr;Sedan;Europe;Front;25135;1.9;4;170;2767;178
+Volvo;S60 2.5 4dr;Sedan;Europe;All;31745;2.5;5;208;3903;180
+Volvo;S60 T5 4dr;Sedan;Europe;Front;34845;2.3;5;247;3766;180
+Volvo;S60 R 4dr;Sedan;Europe;All;37560;2.5;5;300;3571;181
+Volvo;S80 2.9 4dr;Sedan;Europe;Front;37730;2.9;6;208;3576;190
+Volvo;S80 2.5T 4dr;Sedan;Europe;All;37885;2.5;5;194;3691;190
+Volvo;C70 LPT convertible 2dr;Sedan;Europe;Front;40565;2.4;5;197;3450;186
+Volvo;C70 HPT convertible 2dr;Sedan;Europe;Front;42565;2.3;5;242;3450;186
+Volvo;S80 T6 4dr;Sedan;Europe;Front;45210;2.9;6;268;3653;190
+Volvo;V40;Wagon;Europe;Front;26135;1.9;4;170;2822;180
+Volvo;XC70;Wagon;Europe;All;35145;2.5;5;208;3823;186

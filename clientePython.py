@@ -7,46 +7,52 @@ Created on Sun Jan 18 12:10:40 2015
 
 import httplib
 import urllib
-import json
 import csv
 import sys
 
-#headers = {"Content-type": "text/html", "Accept": "text/plain"}
 headers = {"Content-type": "application/x-www-form-urlencoded", "Accept": "text/plain"}
 
-coche = {}
-coche['marca']      ='Renault'
-coche['modelo']     ='Megane'
-coche['tipo']       ='Turismo'
-coche['origen']     ='Francia'
-coche['traccion']   ='Delantera'
+# AÑADIR COCHE POR POST
+def aniadeCoche(coche):
+	params = urllib.urlencode(coche)
+	print params
+	conn = httplib.HTTPConnection("localhost:8080")
+	#conn.set_debuglevel(1)
+	conn.request("POST", "/CarService/rest/coches", params, headers)
+	#response = conn.getresponse()
+	#print response.status, response.reason
+	#print response.read()
+	conn.close()
 
-coche['precio']     ='1000'
-coche['cilindros']  ='4'
-coche['caballos']   ='140'
-coche['tamMotor']   ='457'
-coche['peso']       ='145'
-coche['longitud']   ='123'
+# OBTENER TODOS LOS COCHES EN FORMATO XML POR GET
+def getCoches():
+	conn = httplib.HTTPConnection("localhost",8080)
+	conn.request("GET","/CarService/rest/coches/")
+	res = conn.getresponse()
+	print res.status, res.reason
+	print res.read()
+	conn.close()
 
+def fillDB():
+	with open('TablaCoches.csv', 'rb') as csvfile:
+		reader = csv.DictReader(csvfile, delimiter=";")
+		for row in reader:
+			coche = {}
+			coche['marca']      =row['Marca']
+			coche['modelo']     =row['Modelo']
+			coche['tipo']       =row['Tipo']
+			coche['origen']     =row['Origen']
+			coche['traccion']   =row['Traccion']
 
+			coche['precio']     =row['Precio']
+			coche['cilindros']  =row['Cilindros']
+			coche['caballos']   =row['Caballos']
+			coche['tamMotor']   =row['TamMotor']
+			coche['peso']       =row['Peso']
+			coche['longitud']   =row['Longitud']
 
-# POST AÑADIR COCHE
+			print coche
+			aniadeCoche(coche)
 
-params = urllib.urlencode(coche)
-print params
-conn = httplib.HTTPConnection("localhost:8080")
-#conn.set_debuglevel(1)
-conn.request("POST", "/CarService/rest/coches", params, headers)
-response = conn.getresponse()
-print response.status, response.reason
-#print response.read()
-conn.close()
-
-
-# GET LEER coches
-conn = httplib.HTTPConnection("localhost",8080)
-conn.request("GET","/CarService/rest/coches/")
-res = conn.getresponse()
-print res.status, res.reason
-print res.read()
-conn.close()
+if __name__ == '__main__':
+	fillDB()
