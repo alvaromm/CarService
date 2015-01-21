@@ -15,6 +15,7 @@
 	<nav>
 		<a href="#" id="menu-icon"></a>
 		<ul>
+			<li><a href="buscarCoche.html">Buscar coche</a></li>
 			<li><a href="crearCoche.html">Registrar coche</a></li>
 		</ul>
 	</nav>

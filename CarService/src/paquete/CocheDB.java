@@ -67,6 +67,35 @@ public class CocheDB {
 		return c;
 	}
 	
+	@SuppressWarnings("unchecked")
+	public static List<Coche> getCoches(String marca, String modelo){
+		EntityManager em = factoria.createEntityManager();
+		// Begin a new local transaction so that we can persist a new entity
+		// Comenzar una nueva transaccion local de tal manera que podamos hacer
+		// persitente una nueva entidad
+		// Ahora me creare la consulta necesaria eliminar la persona de nombre y
+		// apellidos que indicare despues
+		Query q;
+		if(marca!="" && modelo!=""){
+			q = em.createQuery("SELECT u FROM Coche u WHERE u.modelo = :modelo"
+					+ " AND u.marca = :marca");
+		}
+		else{
+			q = em.createQuery("SELECT u FROM Coche u WHERE u.modelo = :modelo"
+					+ " OR u.marca = :marca");
+		}
+		// Ahora asigno los parametros
+		q.setParameter("modelo", modelo);
+		q.setParameter("marca", marca);
+		List<Coche> lu = q.getResultList();
+		em.close();     
+		for(Coche c: lu){
+			System.out.println(c);
+		}
+		return lu;
+	}
+	
+	
 	/**
 	 * Actualiza el coche de la base de datos.
 	 * @param usuario : Coche que se va a actualizar. 

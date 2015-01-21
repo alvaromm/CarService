@@ -115,6 +115,54 @@ public class Recurso {
 		System.out.println("Id del coche eliminado: " + id);
 		servletResponse.sendRedirect("../../index.jsp");
 	}
+
+	
+	@POST
+	@Path("/buscarCoche")
+	@Produces(MediaType.TEXT_HTML)
+	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
+	public static List<String> buscarCoche(
+		@FormParam("marca") String 	marca,
+		@FormParam("modelo") String modelo) {
+
+		List<Coche> lc = CocheDB.getCoches(marca, modelo);
+		String inventarioHTML = "";
+		
+		// Ahora insertamos cada uno de los coches que hay.
+		for(Coche c : lc) {
+			// Inicio de linea.
+			inventarioHTML = inventarioHTML + "<tr>";
+			// Cada uno de los atributos.
+			inventarioHTML = inventarioHTML
+					//+ "<td>" + c.getCarId() 	+ 	"</td>"
+					+ "<td>" + c.getMarca() 	+   "</td>"
+			        + "<td>" + c.getModelo() 	+   "</td>"
+			        + "<td>" + c.getTipo() 		+   "</td>"
+			        + "<td>" + c.getOrigen() 	+   "</td>"
+			        + "<td>" + c.getTraccion() 	+   "</td>"
+					+ "<td>" + Integer.toString(c.getPrecio() 	) +   "</td>"
+			        + "<td>" + Integer.toString(c.getCilindros()) +   "</td>"
+			        + "<td>" + Integer.toString(c.getCaballos()	) +    "</td>"
+			        + "<td>" + Double.toString(c.getTamMotor()	) +    "</td>"
+			        + "<td>" + Double.toString(c.getPeso()		) +    "</td>"
+			        + "<td>" + Double.toString(c.getLongitud() )  +    "</td>" 
+			        + "<td><form action=\"rest/coches/eliminarCoche\" method=\"POST\">"
+			        + "<input type=\"hidden\" name=\"param\" value=\""+c.getCarId()+"\" />"
+			        + "<input class=\"button\" type=\"submit\" value=\"Eliminar\" />"
+			        + "</form>"
+			        + "<form action=\"modificarCoche.jsp\" method=\"POST\">"
+			        + "<input type=\"hidden\" name=\"param\" value=\""+c.getCarId()+"\" />"
+			        + "<input class=\"button\" type=\"submit\" value=\"Modificar\" />"
+			        + "</form></td>";
+			// Final de l�nea.
+			inventarioHTML += "</tr>";
+		}
+		
+		List<String> s = new ArrayList<String>();
+		s.add(inventarioHTML);
+		s.add(Integer.toString(lc.size()));
+		return s;
+	}
 	
 	
 	@POST
