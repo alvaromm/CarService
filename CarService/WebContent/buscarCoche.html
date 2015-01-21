@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="styles.css" >
+<title>Crear un nuevo coche</title>
+</head>
+
+<header>
+	<a href="/CarService" id="logo"></a>
+	<nav>
+		<a href="#" id="menu-icon"></a>
+	</nav>
+</header>
+
+<body>
+	<form action="/CarService/mostrarCochesBusqueda.jsp" method="POST" class="basic-grey">
+
+		<fieldset>
+			<legend>Buscar coche</legend>
+			<label> <span>Marca</span> <input type="text" name="marca"
+				value="" />
+			</label> <label> <span>Modelo</span> <input type="text" name="modelo"
+				value="" />
+			</label> <label> <input class="button" type="submit" value="Buscar" />
+			</label>
+
+		</fieldset>
+
+	</form>
+</body>
+</html>
