@@ -76,17 +76,22 @@ public class CocheDB {
 		// Ahora me creare la consulta necesaria eliminar la persona de nombre y
 		// apellidos que indicare despues
 		Query q;
-		if(marca!="" && modelo!=""){
-			q = em.createQuery("SELECT u FROM Coche u WHERE u.modelo = :modelo"
-					+ " AND u.marca = :marca");
+		if(marca=="" && modelo!=""){
+			q = em.createQuery("SELECT u FROM Coche u WHERE UPPER(u.modelo) LIKE UPPER(:modelo)");
+			q.setParameter("modelo", '%'+modelo+'%');
+		}
+		else if(marca!="" && modelo==""){
+			//q = em.createQuery("SELECT u FROM Coche u WHERE UPPER(u.marca) LIKE UPPER('%" + marca + "%')");
+			q = em.createQuery("SELECT u FROM Coche u WHERE UPPER(u.marca) LIKE UPPER(:marca)");
+			q.setParameter("marca", '%'+marca+'%');
 		}
 		else{
-			q = em.createQuery("SELECT u FROM Coche u WHERE u.modelo = :modelo"
-					+ " OR u.marca = :marca");
+			q = em.createQuery("SELECT u FROM Coche u WHERE UPPER(u.modelo) LIKE UPPER(:modelo)"
+					+ " AND UPPER(u.marca) LIKE UPPER(:marca)");
+			q.setParameter("modelo", '%'+modelo+'%');
+			q.setParameter("marca", '%'+marca+'%');
 		}
-		// Ahora asigno los parametros
-		q.setParameter("modelo", modelo);
-		q.setParameter("marca", marca);
+		
 		List<Coche> lu = q.getResultList();
 		em.close();     
 		for(Coche c: lu){
