@@ -7,7 +7,6 @@ Created on Sun Jan 18 12:10:40 2015
 
 import httplib
 import urllib
-import csv
 import sys
 
 headers = {"Content-type": "application/x-www-form-urlencoded", "Accept": "text/plain"}
@@ -17,11 +16,8 @@ def aniadeCoche(coche):
 	params = urllib.urlencode(coche)
 	print params
 	conn = httplib.HTTPConnection("localhost:8080")
-	#conn.set_debuglevel(1)
+	conn.set_debuglevel(1)
 	conn.request("POST", "/CarService/rest/coches", params, headers)
-	#response = conn.getresponse()
-	#print response.status, response.reason
-	#print response.read()
 	conn.close()
 
 # OBTENER TODOS LOS COCHES EN FORMATO XML POR GET
@@ -34,25 +30,26 @@ def getCoches():
 	conn.close()
 
 def fillDB():
-	with open('TablaCoches.csv', 'rb') as csvfile:
-		reader = csv.DictReader(csvfile, delimiter=";")
-		for row in reader:
-			coche = {}
-			coche['marca']      =row['Marca']
-			coche['modelo']     =row['Modelo']
-			coche['tipo']       =row['Tipo']
-			coche['origen']     =row['Origen']
-			coche['traccion']   =row['Traccion']
+	csvfile = open('TablaCoches.csv','rb')
+	csvfile.readline()
+	for lista in csvfile:
+		row = lista[:-1].split(';')
+		coche = {}
+		coche['marca']      =row[0]
+		coche['modelo']     =row[1]
+		coche['tipo']       =row[2]
+		coche['origen']     =row[3]
+		coche['traccion']   =row[4]
 
-			coche['precio']     =row['Precio']
-			coche['cilindros']  =row['Cilindros']
-			coche['caballos']   =row['Caballos']
-			coche['tamMotor']   =row['TamMotor']
-			coche['peso']       =row['Peso']
-			coche['longitud']   =row['Longitud']
+		coche['precio']     =row[5]
+		coche['cilindros']  =row[6]
+		coche['caballos']   =row[7]
+		coche['tamMotor']   =row[8]
+		coche['peso']       =row[9]
+		coche['longitud']   =row[10]
 
-			print coche
-			aniadeCoche(coche)
+		aniadeCoche(coche)
+	csvfile.close()
 
 if __name__ == '__main__':
 	fillDB()

@@ -10,6 +10,8 @@
 <title>CarService</title>
 </head>
 
+<body>
+
 <header>
 	<a href="/CarService" id="logo"></a>
 	<nav>
@@ -20,8 +22,6 @@
 		</ul>
 	</nav>
 </header>
-
-<body>
 
 <p> Coches registrados: <%= Recurso.getCount() %></p>
 
