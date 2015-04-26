@@ -53,4 +53,3 @@ def fillDB():
 
 if __name__ == '__main__':
 	fillDB()
-	print 
